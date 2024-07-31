@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  frontend:
+    container_name: uns-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - backend
+    ports:
+      - "8502:8502"
+    env_file:
+      - .env
+    restart: unless-stopped
+    network_mode: "host"
+    volumes:
+      - ./readonly-user.kubeconfig:/readonly-user.kubeconfig
+
+  backend:
+    container_name: uns-backend
+    build:
+      context: .
+      dockerfile: DockerfileAPI
+    ports:
+      - "8001:8001"
+    env_file:
+      - .env
+    restart: unless-stopped
+    network_mode: "host"
+    volumes:
+      - ./readonly-user.kubeconfig:/readonly-user.kubeconfig
+
+    

@@ -1,0 +1,12 @@
+# Disable line length check
+[flake8]
+max-line-length = 200
+extend-ignore = E501
+exclude =
+    __pycache__
+    .mypy_cache
+    .idea
+    env
+    .env
+    .env.template
+    venv
