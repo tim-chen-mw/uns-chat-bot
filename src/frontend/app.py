@@ -9,8 +9,8 @@ from langchain_community.callbacks.streamlit import (
     StreamlitCallbackHandler,
 )
 
-from src.frontend.chat_client import ChatClient
-from src.utils.config import CHAT_API_URL
+from frontend.chat_client import ChatClient
+from utils.config import CHAT_API_URL
 
 T = TypeVar("T")
 
@@ -38,10 +38,10 @@ def get_streamlit_cb(parent_container: DeltaGenerator):
 
 
 st.set_page_config(
-    page_title="Incident Support", page_icon="../res/icon.png", layout="centered"
+    page_title="UNS Chatbot", page_icon="../res/icon.png", layout="centered"
 )
 
-st.title("Incident Support Bot")
+st.title("UNS Chatbot")
 
 # Generate or retrieve session ID
 if "session_id" not in st.session_state:

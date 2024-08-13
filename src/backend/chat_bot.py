@@ -2,9 +2,8 @@ from langchain_openai import AzureChatOpenAI
 from langgraph.checkpoint import MemorySaver
 from langgraph.checkpoint.base import empty_checkpoint, BaseCheckpointSaver
 from langgraph.prebuilt import create_react_agent
-from src.backend.tools import generate_name
-from src.utils import logger
-from src.utils.config import AZURE_OPENAI_DEPLOYMENT_NAME
+from backend.tools import generate_name
+from utils.config import AZURE_OPENAI_DEPLOYMENT_NAME
 
 
 class AgentManager:
@@ -14,7 +13,7 @@ class AgentManager:
             temperature=0.4,
             streaming=True,
         )
-        self.prompt = "You are a helpful assistant."
+        self.prompt = "You are an analytic expert that manages an industry unified namespace with a lot of information on a factory"
         self.tools = [generate_name]
         self.memory = MemorySaver()
         self.agent = self.create_agent()
@@ -39,4 +38,4 @@ class AgentManager:
 
     def clear_chat_history(self, session_id):
         self.clear_memory(self.memory, session_id)
-        logger.info("Chat history cleared")
+        print("Chat history cleared")

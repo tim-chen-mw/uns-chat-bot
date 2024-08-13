@@ -1,0 +1,378 @@
+{
+    "GlobalIndustries": {
+        "Munich": {
+            "PaintShop": {
+                "BakingOvens": {
+                    "ERP": {
+                        "Inventory": {
+                            "ItemDescription": "{\"timestamp\":\"2024-07-23T08:51:58.6476093+00:00\",\"value\":\"Item1234\"}",
+                            "Location": "{\"timestamp\":\"2024-07-23T08:51:58.7806129+00:00\",\"value\":\"Warehouse 1\"}",
+                            "ItemNubmer": "{\"timestamp\":\"2024-07-23T08:51:58.5863281+00:00\",\"value\":\"1.8664030014720624E\\u002B17\"}",
+                            "OrderedQuantity": "{\"timestamp\":\"2024-07-23T08:51:58.7348075+00:00\",\"value\":\"2024-16-02 15:10:20\"}",
+                            "AvailableQuantity": "{\"timestamp\":\"2024-07-23T08:51:58.6912704+00:00\",\"value\":\"820\"}"
+                        },
+                        "ProductionOrder": "{\"OrderIdentification\":null,\"OrderQuanity\":\"200\",\"PriorityLevel\":\"High\",\"ScheduledStartDate\":\"07/23/2024 05:51:58\",\"ScheduledEndDate\":\"07/23/2024 08:51:58\",\"BatchNumber\":\"Batch\",\"ProductInformation\":null,\"BillOfMaterials\":null,\"WeldingOperationDetails\":null,\"LaserCutDetails\":null,\"SpotWeldersSetupInstructions\":null,\"MaintenanceInstructions\":null}"
+                    },
+                    "MES": {
+                        "Production": {
+                            "ProducedQuantity": "{\"timestamp\":\"2024-07-23T08:51:58.9632226+00:00\",\"value\":\"273\"}",
+                            "RejectedQuantity": "{\"timestamp\":\"2024-07-23T08:51:59.0426271+00:00\",\"value\":\"7\"}",
+                            "JobStatus": "{\"timestamp\":\"2024-07-23T08:51:58.8274091+00:00\",\"value\":\"1\"}",
+                            "EndTime": "{\"timestamp\":\"2024-07-23T08:51:58.9199934+00:00\",\"value\":\"07/23/2024 08:51:58\"}",
+                            "StartTime": "{\"timestamp\":\"2024-07-23T08:51:58.8754737+00:00\",\"value\":\"07/23/2024 08:51:58\"}",
+                            "OEE": "{\"timestamp\":\"2024-07-23T08:51:59.1766531+00:00\",\"value\":\"5.792881028268374E\\u002B18\"}"
+                        },
+                        "Maintenance": {
+                            "MaintenanceStatus": "{\"timestamp\":\"2024-07-23T08:51:59.4530011+00:00\",\"value\":\"0\"}"
+                        },
+                        "KPIs": {
+                            "OEE": "{\"timestamp\":\"2024-07-23T08:51:59.5004074+00:00\",\"value\":\"9.117608216322212E\\u002B18\"}",
+                            "MTTR": "{\"timestamp\":\"2024-07-23T08:51:59.5531333+00:00\",\"value\":\"4.186839408193785E\\u002B18\"}",
+                            "AdHoc": "{\"timestamp\":\"2024-07-23T08:51:59.604254+00:00\",\"value\":\"-4.574021494440518E\\u002B18\"}"
+                        },
+                        "Quality": {
+                            "ItemNumber": "{\"timestamp\":\"2024-07-23T08:51:59.2802478+00:00\",\"value\":\"123\"}",
+                            "RejectionQuantity": "{\"timestamp\":\"2024-07-23T08:51:59.3663612+00:00\",\"value\":\"13\"}",
+                            "AcceptanceQuantity": "{\"timestamp\":\"2024-07-23T08:51:59.4086321+00:00\",\"value\":\"109\"}",
+                            "InspectionResult": "{\"timestamp\":\"2024-07-23T08:51:59.3234185+00:00\",\"value\":\"Passed\"}",
+                            "OrderNumber": "{\"timestamp\":\"2024-07-23T08:51:59.2329144+00:00\",\"value\":\"123\"}"
+                        }
+                    },
+                    "BAOV003": {
+                        "Informations": "{\"robotType\":\"Backing\",\"manufacturer\":\"DAVRON TECH\",\"modelYear\":\"2018\",\"serailnumber\":\"QkFPVjAwMw==\",\"capacity\":\"5\",\"motorPower\":\"3500 WATTS\",\"consuption\":\"3500 WATTS\",\"constructionMaterial\":\"Steel\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:04.5379881+00:00\",\"state\":\"Running\",\"machine_id\":\"BAOV003\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:04.6779207+00:00\",\"alarmId\":\"b88687d0-1cca-40bd-b9b8-7ff756f7a0d2\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"BAOV003\"}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:04.6315176+00:00\",\"machine_id\":\"BAOV003\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"BakingOvens\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}"
+                    },
+                    "BAOV004": {
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:04.8687843+00:00\",\"alarmId\":\"4e0876af-52d6-4bbb-9ff4-723ddae70e87\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"BAOV004\"}",
+                        "Informations": "{\"robotType\":\"Backing\",\"manufacturer\":\"DAVRON TECH\",\"modelYear\":\"2018\",\"serailnumber\":\"QkFPVjAwNA==\",\"capacity\":\"5\",\"motorPower\":\"3500 WATTS\",\"consuption\":\"3500 WATTS\",\"constructionMaterial\":\"Steel\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:04.7209541+00:00\",\"state\":\"Running\",\"machine_id\":\"BAOV004\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:04.8238701+00:00\",\"machine_id\":\"BAOV004\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"BakingOvens\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}"
+                    },
+                    "BAOV002": {
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:04.4917316+00:00\",\"alarmId\":\"33a2448c-22ad-4731-875b-23c762ca79a8\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"BAOV002\"}",
+                        "Informations": "{\"robotType\":\"Backing\",\"manufacturer\":\"DAVRON TECH\",\"modelYear\":\"2018\",\"serailnumber\":\"QkFPVjAwMg==\",\"capacity\":\"5\",\"motorPower\":\"3500 WATTS\",\"consuption\":\"3500 WATTS\",\"constructionMaterial\":\"Steel\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:04.3229474+00:00\",\"state\":\"Running\",\"machine_id\":\"BAOV002\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:04.4417085+00:00\",\"machine_id\":\"BAOV002\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"BakingOvens\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}"
+                    },
+                    "BAOV005": {
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:05.0142335+00:00\",\"machine_id\":\"BAOV005\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"BakingOvens\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:05.0640796+00:00\",\"alarmId\":\"e0c0ec31-529e-45d8-ae37-76a58c5eb737\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"BAOV005\"}",
+                        "Informations": "{\"robotType\":\"Backing\",\"manufacturer\":\"DAVRON TECH\",\"modelYear\":\"2018\",\"serailnumber\":\"QkFPVjAwNQ==\",\"capacity\":\"5\",\"motorPower\":\"3500 WATTS\",\"consuption\":\"3500 WATTS\",\"constructionMaterial\":\"Steel\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:04.9155845+00:00\",\"state\":\"Running\",\"machine_id\":\"BAOV005\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}"
+                    },
+                    "CMMS": {
+                        "Maintenance": "{\"Timestamp\":\"2024-07-23T08:51:59.6990238+00:00\",\"MaintenanceStatus\":\"Scheduled\"}"
+                    },
+                    "BAOV001": {
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:04.2371086+00:00\",\"machine_id\":\"BAOV001\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"BakingOvens\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:04.2803496+00:00\",\"alarmId\":\"a8c5e798-bf50-4810-b72e-c4ca61a18923\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"BAOV001\"}",
+                        "Informations": "{\"robotType\":\"Backing\",\"manufacturer\":\"DAVRON TECH\",\"modelYear\":\"2018\",\"serailnumber\":\"QkFPVjAwMQ==\",\"capacity\":\"5\",\"motorPower\":\"3500 WATTS\",\"consuption\":\"3500 WATTS\",\"constructionMaterial\":\"Steel\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:04.1451366+00:00\",\"state\":\"Running\",\"machine_id\":\"BAOV001\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}"
+                    },
+                    "QMS": {
+                        "Quality": "{\"Timestamp\":\"2024-07-23T08:51:59.6508724+00:00\",\"ProduInspectionResulttCode\":\"Passed\"}"
+                    }
+                },
+                "InspectionStations": {
+                    "ERP": {
+                        "Inventory": {
+                            "OrderedQuantity": "{\"timestamp\":\"2024-07-23T08:52:01.076038+00:00\",\"value\":\"2024-16-02 15:10:20\"}",
+                            "ItemNubmer": "{\"timestamp\":\"2024-07-23T08:52:00.9106433+00:00\",\"value\":\"-5.88418089324876E\\u002B18\"}",
+                            "Location": "{\"timestamp\":\"2024-07-23T08:52:01.1260602+00:00\",\"value\":\"Warehouse 1\"}",
+                            "AvailableQuantity": "{\"timestamp\":\"2024-07-23T08:52:01.0049464+00:00\",\"value\":\"820\"}",
+                            "ItemDescription": "{\"timestamp\":\"2024-07-23T08:52:00.9609062+00:00\",\"value\":\"Item1234\"}"
+                        },
+                        "ProductionOrder": "{\"OrderIdentification\":null,\"OrderQuanity\":\"200\",\"PriorityLevel\":\"High\",\"ScheduledStartDate\":\"07/23/2024 05:52:00\",\"ScheduledEndDate\":\"07/23/2024 08:52:00\",\"BatchNumber\":\"Batch\",\"ProductInformation\":null,\"BillOfMaterials\":null,\"WeldingOperationDetails\":null,\"LaserCutDetails\":null,\"SpotWeldersSetupInstructions\":null,\"MaintenanceInstructions\":null}"
+                    },
+                    "MES": {
+                        "Production": {
+                            "OEE": "{\"timestamp\":\"2024-07-23T08:52:01.4362963+00:00\",\"value\":\"7.008950996828531E\\u002B18\"}",
+                            "StartTime": "{\"timestamp\":\"2024-07-23T08:52:01.2372385+00:00\",\"value\":\"07/23/2024 08:52:01\"}",
+                            "JobStatus": "{\"timestamp\":\"2024-07-23T08:52:01.1951388+00:00\",\"value\":\"1\"}",
+                            "ProducedQuantity": "{\"timestamp\":\"2024-07-23T08:52:01.3443757+00:00\",\"value\":\"273\"}",
+                            "RejectedQuantity": "{\"timestamp\":\"2024-07-23T08:52:01.3874822+00:00\",\"value\":\"7\"}",
+                            "EndTime": "{\"timestamp\":\"2024-07-23T08:52:01.2801249+00:00\",\"value\":\"07/23/2024 08:52:01\"}"
+                        },
+                        "KPIs": {
+                            "MTTR": "{\"timestamp\":\"2024-07-23T08:52:01.8202232+00:00\",\"value\":\"3.010964526536959E\\u002B18\"}",
+                            "OEE": "{\"timestamp\":\"2024-07-23T08:52:01.7691223+00:00\",\"value\":\"5.288623437558365E\\u002B18\"}",
+                            "AdHoc": "{\"timestamp\":\"2024-07-23T08:52:01.8633212+00:00\",\"value\":\"6.632096965311908E\\u002B17\"}"
+                        },
+                        "Quality": {
+                            "RejectionQuantity": "{\"timestamp\":\"2024-07-23T08:52:01.6269569+00:00\",\"value\":\"13\"}",
+                            "InspectionResult": "{\"timestamp\":\"2024-07-23T08:52:01.5775212+00:00\",\"value\":\"Passed\"}",
+                            "AcceptanceQuantity": "{\"timestamp\":\"2024-07-23T08:52:01.6769893+00:00\",\"value\":\"109\"}",
+                            "OrderNumber": "{\"timestamp\":\"2024-07-23T08:52:01.4795638+00:00\",\"value\":\"123\"}",
+                            "ItemNumber": "{\"timestamp\":\"2024-07-23T08:52:01.5320409+00:00\",\"value\":\"123\"}"
+                        },
+                        "Maintenance": {
+                            "MaintenanceStatus": "{\"timestamp\":\"2024-07-23T08:52:01.7230155+00:00\",\"value\":\"0\"}"
+                        }
+                    },
+                    "PINSP004": {
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:06.8076609+00:00\",\"alarmId\":\"465fdf60-6a78-404d-bd91-e68f5f9e7579\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"PINSP004\"}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:06.7634382+00:00\",\"machine_id\":\"PINSP004\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"InspectionStations\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}",
+                        "Informations": "{\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"UElOU1AwMDQ=\",\"airflow\":\"4\",\"humidity\":\"4\",\"temperature\":\"4\",\"machinePower\":\"5000 WATTS\",\"timestamp\":\"2024-07-23T08:52:06.6567515+00:00\",\"state\":\"Running\",\"machine_id\":\"PINSP004\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}"
+                    },
+                    "PINSP001": {
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:06.1809382+00:00\",\"machine_id\":\"PINSP001\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"InspectionStations\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Informations": "{\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"UElOU1AwMDE=\",\"airflow\":\"4\",\"humidity\":\"4\",\"temperature\":\"4\",\"machinePower\":\"5000 WATTS\",\"timestamp\":\"2024-07-23T08:52:06.0816376+00:00\",\"state\":\"Running\",\"machine_id\":\"PINSP001\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:06.2257475+00:00\",\"alarmId\":\"11330e57-1e61-4103-bd37-98d06abde27f\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"PINSP001\"}"
+                    },
+                    "PINSP005": {
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:06.9422166+00:00\",\"machine_id\":\"PINSP005\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"InspectionStations\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:06.995972+00:00\",\"alarmId\":\"97461a8f-e0fa-46cc-885d-1a33c4c85a84\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"PINSP005\"}",
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}",
+                        "Informations": "{\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"UElOU1AwMDU=\",\"airflow\":\"4\",\"humidity\":\"4\",\"temperature\":\"4\",\"machinePower\":\"5000 WATTS\",\"timestamp\":\"2024-07-23T08:52:06.8505625+00:00\",\"state\":\"Running\",\"machine_id\":\"PINSP005\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}"
+                    },
+                    "QMS": {
+                        "Quality": "{\"Timestamp\":\"2024-07-23T08:52:01.9101394+00:00\",\"ProduInspectionResulttCode\":\"Passed\"}"
+                    },
+                    "PINSP002": {
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:06.4225423+00:00\",\"alarmId\":\"b6fe1346-2b8f-41af-8423-d6d006b3db49\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"PINSP002\"}",
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:06.3701845+00:00\",\"machine_id\":\"PINSP002\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"InspectionStations\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Informations": "{\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"UElOU1AwMDI=\",\"airflow\":\"4\",\"humidity\":\"4\",\"temperature\":\"4\",\"machinePower\":\"5000 WATTS\",\"timestamp\":\"2024-07-23T08:52:06.2743309+00:00\",\"state\":\"Running\",\"machine_id\":\"PINSP002\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}"
+                    },
+                    "PINSP003": {
+                        "Informations": "{\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"UElOU1AwMDM=\",\"airflow\":\"4\",\"humidity\":\"4\",\"temperature\":\"4\",\"machinePower\":\"5000 WATTS\",\"timestamp\":\"2024-07-23T08:52:06.4684568+00:00\",\"state\":\"Running\",\"machine_id\":\"PINSP003\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:06.6088289+00:00\",\"alarmId\":\"ae2fd7bd-5d19-445c-8ba1-b765b8021287\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"PINSP003\"}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:06.5627171+00:00\",\"machine_id\":\"PINSP003\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"InspectionStations\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}"
+                    },
+                    "CMMS": {
+                        "Maintenance": "{\"Timestamp\":\"2024-07-23T08:52:01.9527781+00:00\",\"MaintenanceStatus\":\"Scheduled\"}"
+                    }
+                },
+                "PaintMixingStations": {
+                    "MES": {
+                        "Maintenance": {
+                            "MaintenanceStatus": "{\"timestamp\":\"2024-07-23T08:52:00.587721+00:00\",\"value\":\"0\"}"
+                        },
+                        "KPIs": {
+                            "MTTR": "{\"timestamp\":\"2024-07-23T08:52:00.6814095+00:00\",\"value\":\"1.132493577107621E\\u002B18\"}",
+                            "AdHoc": "{\"timestamp\":\"2024-07-23T08:52:00.73101+00:00\",\"value\":\"-4.123469515029212E\\u002B18\"}",
+                            "OEE": "{\"timestamp\":\"2024-07-23T08:52:00.6344934+00:00\",\"value\":\"5.540555417384385E\\u002B18\"}"
+                        },
+                        "Quality": {
+                            "AcceptanceQuantity": "{\"timestamp\":\"2024-07-23T08:52:00.541481+00:00\",\"value\":\"109\"}",
+                            "OrderNumber": "{\"timestamp\":\"2024-07-23T08:52:00.3464707+00:00\",\"value\":\"123\"}",
+                            "ItemNumber": "{\"timestamp\":\"2024-07-23T08:52:00.3876774+00:00\",\"value\":\"123\"}",
+                            "InspectionResult": "{\"timestamp\":\"2024-07-23T08:52:00.4475785+00:00\",\"value\":\"Passed\"}",
+                            "RejectionQuantity": "{\"timestamp\":\"2024-07-23T08:52:00.491123+00:00\",\"value\":\"13\"}"
+                        },
+                        "Production": {
+                            "OEE": "{\"timestamp\":\"2024-07-23T08:52:00.3052813+00:00\",\"value\":\"-5.198885481925626E\\u002B18\"}",
+                            "JobStatus": "{\"timestamp\":\"2024-07-23T08:52:00.0659705+00:00\",\"value\":\"1\"}",
+                            "EndTime": "{\"timestamp\":\"2024-07-23T08:52:00.1697723+00:00\",\"value\":\"07/23/2024 08:52:00\"}",
+                            "RejectedQuantity": "{\"timestamp\":\"2024-07-23T08:52:00.255234+00:00\",\"value\":\"7\"}",
+                            "StartTime": "{\"timestamp\":\"2024-07-23T08:52:00.1115377+00:00\",\"value\":\"07/23/2024 08:52:00\"}",
+                            "ProducedQuantity": "{\"timestamp\":\"2024-07-23T08:52:00.2128648+00:00\",\"value\":\"273\"}"
+                        }
+                    },
+                    "PMIX001": {
+                        "Informations": "{\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"UE1JWDAwMQ==\",\"capacity\":\"4\",\"airflow\":\"4\",\"humidity\":\"4\",\"temperature\":\"4\",\"motorPower\":\"3500 WATTS\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:05.1164015+00:00\",\"state\":\"Running\",\"machine_id\":\"PMIX001\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:05.2587478+00:00\",\"alarmId\":\"7f51c1d6-9e3c-45dc-b6ff-7ea8119b4428\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"PMIX001\"}",
+                        "Telemetry": "{\"Angle1\":null,\"Angle2\":null,\"Angle3\":null,\"Angle4\":null,\"Angle5\":null,\"Tool\":\"Tool1\",\"Temperature\":null,\"PowerConsuption\":null}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:05.2020316+00:00\",\"machine_id\":\"PMIX001\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"PaintMixingStations\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}"
+                    },
+                    "ERP": {
+                        "Inventory": {
+                            "ItemNubmer": "{\"timestamp\":\"2024-07-23T08:51:59.7934913+00:00\",\"value\":\"3.9066012982759875E\\u002B18\"}",
+                            "OrderedQuantity": "{\"timestamp\":\"2024-07-23T08:51:59.9389737+00:00\",\"value\":\"2024-16-02 15:10:20\"}",
+                            "AvailableQuantity": "{\"timestamp\":\"2024-07-23T08:51:59.8877262+00:00\",\"value\":\"820\"}",
+                            "Location": "{\"timestamp\":\"2024-07-23T08:52:00.0039335+00:00\",\"value\":\"Warehouse 1\"}",
+                            "ItemDescription": "{\"timestamp\":\"2024-07-23T08:51:59.8409235+00:00\",\"value\":\"Item1234\"}"
+                        },
+                        "ProductionOrder": "{\"OrderIdentification\":null,\"OrderQuanity\":\"200\",\"PriorityLevel\":\"High\",\"ScheduledStartDate\":\"07/23/2024 05:51:59\",\"ScheduledEndDate\":\"07/23/2024 08:51:59\",\"BatchNumber\":\"Batch\",\"ProductInformation\":null,\"BillOfMaterials\":null,\"WeldingOperationDetails\":null,\"LaserCutDetails\":null,\"SpotWeldersSetupInstructions\":null,\"MaintenanceInstructions\":null}"
+                    },
+                    "PMIX004": {
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:05.8470725+00:00\",\"alarmId\":\"1d3b1ca2-9737-448f-85a5-28eea7d11312\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"PMIX004\"}",
+                        "Telemetry": "{\"Angle1\":null,\"Angle2\":null,\"Angle3\":null,\"Angle4\":null,\"Angle5\":null,\"Tool\":\"Tool1\",\"Temperature\":null,\"PowerConsuption\":null}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:05.8013962+00:00\",\"machine_id\":\"PMIX004\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"PaintMixingStations\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Informations": "{\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"UE1JWDAwNA==\",\"capacity\":\"4\",\"airflow\":\"4\",\"humidity\":\"4\",\"temperature\":\"4\",\"motorPower\":\"3500 WATTS\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:05.704395+00:00\",\"state\":\"Running\",\"machine_id\":\"PMIX004\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}"
+                    },
+                    "PMIX002": {
+                        "Informations": "{\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"UE1JWDAwMg==\",\"capacity\":\"4\",\"airflow\":\"4\",\"humidity\":\"4\",\"temperature\":\"4\",\"motorPower\":\"3500 WATTS\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:05.3166398+00:00\",\"state\":\"Running\",\"machine_id\":\"PMIX002\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:05.4634014+00:00\",\"alarmId\":\"9888ae86-7683-4288-80e7-8853265656e5\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"PMIX002\"}",
+                        "Telemetry": "{\"Angle1\":null,\"Angle2\":null,\"Angle3\":null,\"Angle4\":null,\"Angle5\":null,\"Tool\":\"Tool1\",\"Temperature\":null,\"PowerConsuption\":null}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:05.4075184+00:00\",\"machine_id\":\"PMIX002\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"PaintMixingStations\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}"
+                    },
+                    "CMMS": {
+                        "Maintenance": "{\"Timestamp\":\"2024-07-23T08:52:00.8177333+00:00\",\"MaintenanceStatus\":\"Scheduled\"}"
+                    },
+                    "PMIX003": {
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:05.6088413+00:00\",\"machine_id\":\"PMIX003\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"PaintMixingStations\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Telemetry": "{\"Angle1\":null,\"Angle2\":null,\"Angle3\":null,\"Angle4\":null,\"Angle5\":null,\"Tool\":\"Tool1\",\"Temperature\":null,\"PowerConsuption\":null}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:05.652131+00:00\",\"alarmId\":\"26422945-8eb0-4d69-aab8-f4be95be7f88\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"PMIX003\"}",
+                        "Informations": "{\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"UE1JWDAwMw==\",\"capacity\":\"4\",\"airflow\":\"4\",\"humidity\":\"4\",\"temperature\":\"4\",\"motorPower\":\"3500 WATTS\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:05.5092344+00:00\",\"state\":\"Running\",\"machine_id\":\"PMIX003\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}"
+                    },
+                    "PMIX005": {
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:06.0367577+00:00\",\"alarmId\":\"71dc615b-455b-4f04-b95f-da8802ba0a4b\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"PMIX005\"}",
+                        "Telemetry": "{\"Angle1\":null,\"Angle2\":null,\"Angle3\":null,\"Angle4\":null,\"Angle5\":null,\"Tool\":\"Tool1\",\"Temperature\":null,\"PowerConsuption\":null}",
+                        "Informations": "{\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"UE1JWDAwNQ==\",\"capacity\":\"4\",\"airflow\":\"4\",\"humidity\":\"4\",\"temperature\":\"4\",\"motorPower\":\"3500 WATTS\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:05.8954381+00:00\",\"state\":\"Running\",\"machine_id\":\"PMIX005\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:05.9874991+00:00\",\"machine_id\":\"PMIX005\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"PaintMixingStations\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}"
+                    },
+                    "QMS": {
+                        "Quality": "{\"Timestamp\":\"2024-07-23T08:52:00.7733+00:00\",\"ProduInspectionResulttCode\":\"Passed\"}"
+                    }
+                },
+                "SandingMachines": {
+                    "MES": {
+                        "Production": {
+                            "OEE": "{\"timestamp\":\"2024-07-23T08:52:02.5720181+00:00\",\"value\":\"6.31165268944674E\\u002B18\"}",
+                            "StartTime": "{\"timestamp\":\"2024-07-23T08:52:02.3781354+00:00\",\"value\":\"07/23/2024 08:52:02\"}",
+                            "JobStatus": "{\"timestamp\":\"2024-07-23T08:52:02.318238+00:00\",\"value\":\"1\"}",
+                            "RejectedQuantity": "{\"timestamp\":\"2024-07-23T08:52:02.5273346+00:00\",\"value\":\"7\"}",
+                            "ProducedQuantity": "{\"timestamp\":\"2024-07-23T08:52:02.4841935+00:00\",\"value\":\"273\"}",
+                            "EndTime": "{\"timestamp\":\"2024-07-23T08:52:02.4253536+00:00\",\"value\":\"07/23/2024 08:52:02\"}"
+                        },
+                        "KPIs": {
+                            "AdHoc": "{\"timestamp\":\"2024-07-23T08:52:03.0190544+00:00\",\"value\":\"8.195699328018688E\\u002B18\"}",
+                            "MTTR": "{\"timestamp\":\"2024-07-23T08:52:02.953189+00:00\",\"value\":\"2.6962015328593265E\\u002B18\"}",
+                            "OEE": "{\"timestamp\":\"2024-07-23T08:52:02.9074738+00:00\",\"value\":\"5.13138535202897E\\u002B18\"}"
+                        },
+                        "Quality": {
+                            "AcceptanceQuantity": "{\"timestamp\":\"2024-07-23T08:52:02.8186193+00:00\",\"value\":\"109\"}",
+                            "InspectionResult": "{\"timestamp\":\"2024-07-23T08:52:02.7209347+00:00\",\"value\":\"Passed\"}",
+                            "RejectionQuantity": "{\"timestamp\":\"2024-07-23T08:52:02.7680885+00:00\",\"value\":\"13\"}",
+                            "OrderNumber": "{\"timestamp\":\"2024-07-23T08:52:02.6197948+00:00\",\"value\":\"123\"}",
+                            "ItemNumber": "{\"timestamp\":\"2024-07-23T08:52:02.6688652+00:00\",\"value\":\"123\"}"
+                        },
+                        "Maintenance": {
+                            "MaintenanceStatus": "{\"timestamp\":\"2024-07-23T08:52:02.8632924+00:00\",\"value\":\"0\"}"
+                        }
+                    },
+                    "SANDM002": {
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}",
+                        "Informations": "{\"manufacturer\":\"3M\",\"modelYear\":\"2021\",\"serailnumber\":\"U0FORE0wMDI=\",\"capacity\":\"N/A\",\"airflow\":\"5000\",\"humidity\":\"45\",\"temperature\":\"30\",\"motorPower\":\"4500 WATTS\",\"motorSpeed\":\"3500 RPM\",\"timestamp\":\"2024-07-23T08:52:07.2339278+00:00\",\"state\":\"Running\",\"machine_id\":\"SANDM002\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:07.367165+00:00\",\"alarmId\":\"5b214358-ad42-4931-91c7-8994fd7d97f0\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"SANDM002\"}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:07.3209242+00:00\",\"machine_id\":\"SANDM002\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"SandingMachines\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}"
+                    },
+                    "SANDM001": {
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:07.1879201+00:00\",\"alarmId\":\"e38677e1-fac2-427e-b38d-21018f478495\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"SANDM001\"}",
+                        "Informations": "{\"manufacturer\":\"3M\",\"modelYear\":\"2021\",\"serailnumber\":\"U0FORE0wMDE=\",\"capacity\":\"N/A\",\"airflow\":\"5000\",\"humidity\":\"45\",\"temperature\":\"30\",\"motorPower\":\"4500 WATTS\",\"motorSpeed\":\"3500 RPM\",\"timestamp\":\"2024-07-23T08:52:07.0426236+00:00\",\"state\":\"Running\",\"machine_id\":\"SANDM001\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:07.1406289+00:00\",\"machine_id\":\"SANDM001\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"SandingMachines\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}"
+                    },
+                    "SANDM003": {
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:07.5801296+00:00\",\"alarmId\":\"4928dbd7-e158-437e-b7b5-20ec2b23daeb\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"SANDM003\"}",
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}",
+                        "Informations": "{\"manufacturer\":\"3M\",\"modelYear\":\"2021\",\"serailnumber\":\"U0FORE0wMDM=\",\"capacity\":\"N/A\",\"airflow\":\"5000\",\"humidity\":\"45\",\"temperature\":\"30\",\"motorPower\":\"4500 WATTS\",\"motorSpeed\":\"3500 RPM\",\"timestamp\":\"2024-07-23T08:52:07.420518+00:00\",\"state\":\"Running\",\"machine_id\":\"SANDM003\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:07.5337927+00:00\",\"machine_id\":\"SANDM003\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"SandingMachines\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}"
+                    },
+                    "SANDM005": {
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:07.9590883+00:00\",\"alarmId\":\"d388cf54-d5f4-4353-ab99-374c3fb613bf\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"SANDM005\"}",
+                        "Informations": "{\"manufacturer\":\"3M\",\"modelYear\":\"2021\",\"serailnumber\":\"U0FORE0wMDU=\",\"capacity\":\"N/A\",\"airflow\":\"5000\",\"humidity\":\"45\",\"temperature\":\"30\",\"motorPower\":\"4500 WATTS\",\"motorSpeed\":\"3500 RPM\",\"timestamp\":\"2024-07-23T08:52:07.8154242+00:00\",\"state\":\"Running\",\"machine_id\":\"SANDM005\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:07.9097721+00:00\",\"machine_id\":\"SANDM005\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"SandingMachines\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}"
+                    },
+                    "ERP": {
+                        "ProductionOrder": "{\"OrderIdentification\":null,\"OrderQuanity\":\"200\",\"PriorityLevel\":\"High\",\"ScheduledStartDate\":\"07/23/2024 05:52:01\",\"ScheduledEndDate\":\"07/23/2024 08:52:01\",\"BatchNumber\":\"Batch\",\"ProductInformation\":null,\"BillOfMaterials\":null,\"WeldingOperationDetails\":null,\"LaserCutDetails\":null,\"SpotWeldersSetupInstructions\":null,\"MaintenanceInstructions\":null}",
+                        "Inventory": {
+                            "ItemNubmer": "{\"timestamp\":\"2024-07-23T08:52:02.044742+00:00\",\"value\":\"5.094368397240037E\\u002B18\"}",
+                            "OrderedQuantity": "{\"timestamp\":\"2024-07-23T08:52:02.1961995+00:00\",\"value\":\"2024-16-02 15:10:20\"}",
+                            "Location": "{\"timestamp\":\"2024-07-23T08:52:02.2762052+00:00\",\"value\":\"Warehouse 1\"}",
+                            "ItemDescription": "{\"timestamp\":\"2024-07-23T08:52:02.0997822+00:00\",\"value\":\"Item1234\"}",
+                            "AvailableQuantity": "{\"timestamp\":\"2024-07-23T08:52:02.1461928+00:00\",\"value\":\"820\"}"
+                        }
+                    },
+                    "SANDM004": {
+                        "Telemetry": "{\"Temperature\":null,\"PowerConsuption\":null}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:07.7160064+00:00\",\"machine_id\":\"SANDM004\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"SandingMachines\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:07.7621455+00:00\",\"alarmId\":\"44a80117-09d1-4cec-8fc0-a0d33be649af\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"SANDM004\"}",
+                        "Informations": "{\"manufacturer\":\"3M\",\"modelYear\":\"2021\",\"serailnumber\":\"U0FORE0wMDQ=\",\"capacity\":\"N/A\",\"airflow\":\"5000\",\"humidity\":\"45\",\"temperature\":\"30\",\"motorPower\":\"4500 WATTS\",\"motorSpeed\":\"3500 RPM\",\"timestamp\":\"2024-07-23T08:52:07.6299993+00:00\",\"state\":\"Running\",\"machine_id\":\"SANDM004\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}"
+                    },
+                    "CMMS": {
+                        "Maintenance": "{\"Timestamp\":\"2024-07-23T08:52:03.1111943+00:00\",\"MaintenanceStatus\":\"Scheduled\"}"
+                    },
+                    "QMS": {
+                        "Quality": "{\"Timestamp\":\"2024-07-23T08:52:03.0692274+00:00\",\"ProduInspectionResulttCode\":\"Passed\"}"
+                    }
+                },
+                "PaintSprayers": {
+                    "MES": {
+                        "Production": {
+                            "ProducedQuantity": "{\"timestamp\":\"2024-07-23T08:51:57.7947407+00:00\",\"value\":\"273\"}",
+                            "RejectedQuantity": "{\"timestamp\":\"2024-07-23T08:51:57.8384619+00:00\",\"value\":\"7\"}",
+                            "OEE": "{\"timestamp\":\"2024-07-23T08:51:57.8878522+00:00\",\"value\":\"2.049815102392785E\\u002B18\"}",
+                            "EndTime": "{\"timestamp\":\"2024-07-23T08:51:57.750612+00:00\",\"value\":\"07/23/2024 08:51:57\"}",
+                            "StartTime": "{\"timestamp\":\"2024-07-23T08:51:57.7013797+00:00\",\"value\":\"07/23/2024 08:51:57\"}",
+                            "JobStatus": "{\"timestamp\":\"2024-07-23T08:51:57.6576339+00:00\",\"value\":\"1\"}"
+                        },
+                        "KPIs": {
+                            "AdHoc": "{\"timestamp\":\"2024-07-23T08:51:58.3570402+00:00\",\"value\":\"5.080854603005244E\\u002B18\"}",
+                            "OEE": "{\"timestamp\":\"2024-07-23T08:51:58.2446131+00:00\",\"value\":\"-3.439111185948726E\\u002B18\"}",
+                            "MTTR": "{\"timestamp\":\"2024-07-23T08:51:58.2981794+00:00\",\"value\":\"-6.418234098375128E\\u002B17\"}"
+                        },
+                        "Quality": {
+                            "OrderNumber": "{\"timestamp\":\"2024-07-23T08:51:57.931225+00:00\",\"value\":\"123\"}",
+                            "ItemNumber": "{\"timestamp\":\"2024-07-23T08:51:57.9747304+00:00\",\"value\":\"123\"}",
+                            "InspectionResult": "{\"timestamp\":\"2024-07-23T08:51:58.031868+00:00\",\"value\":\"Passed\"}",
+                            "RejectionQuantity": "{\"timestamp\":\"2024-07-23T08:51:58.0835005+00:00\",\"value\":\"13\"}",
+                            "AcceptanceQuantity": "{\"timestamp\":\"2024-07-23T08:51:58.1389311+00:00\",\"value\":\"109\"}"
+                        },
+                        "Maintenance": {
+                            "MaintenanceStatus": "{\"timestamp\":\"2024-07-23T08:51:58.1960483+00:00\",\"value\":\"0\"}"
+                        }
+                    },
+                    "ERP": {
+                        "ProductionOrder": "{\"OrderIdentification\":null,\"OrderQuanity\":\"200\",\"PriorityLevel\":\"High\",\"ScheduledStartDate\":\"07/23/2024 05:51:57\",\"ScheduledEndDate\":\"07/23/2024 08:51:57\",\"BatchNumber\":\"Batch\",\"ProductInformation\":null,\"BillOfMaterials\":null,\"WeldingOperationDetails\":null,\"LaserCutDetails\":null,\"SpotWeldersSetupInstructions\":null,\"MaintenanceInstructions\":null}",
+                        "Inventory": {
+                            "AvailableQuantity": "{\"timestamp\":\"2024-07-23T08:51:57.5238481+00:00\",\"value\":\"820\"}",
+                            "OrderedQuantity": "{\"timestamp\":\"2024-07-23T08:51:57.5717135+00:00\",\"value\":\"2024-16-02 15:10:20\"}",
+                            "ItemNubmer": "{\"timestamp\":\"2024-07-23T08:51:57.4348225+00:00\",\"value\":\"-8.372141856914492E\\u002B18\"}",
+                            "ItemDescription": "{\"timestamp\":\"2024-07-23T08:51:57.4790657+00:00\",\"value\":\"Item1234\"}",
+                            "Location": "{\"timestamp\":\"2024-07-23T08:51:57.6143537+00:00\",\"value\":\"Warehouse 1\"}"
+                        }
+                    },
+                    "SPR002": {
+                        "Informations": "{\"robotType\":\"Painting\",\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"U1BSMDAy\",\"capacity\":\"5\",\"motorPower\":\"3500 WATTS\",\"constructionMaterial\":\"Steel\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:03.3425224+00:00\",\"state\":\"Running\",\"machine_id\":\"SPR002\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:03.4928954+00:00\",\"alarmId\":\"4c96362d-c938-4140-87af-5da436765bcd\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"SPR002\"}",
+                        "Telemetry": "{\"Angle1\":null,\"Angle2\":null,\"Angle3\":null,\"Angle4\":null,\"Angle5\":null,\"Tool\":\"Tool1\",\"Temperature\":null,\"PowerConsuption\":null}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:03.4330764+00:00\",\"machine_id\":\"SPR002\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"PaintSprayers\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}"
+                    },
+                    "SPR005": {
+                        "Telemetry": "{\"Angle1\":null,\"Angle2\":null,\"Angle3\":null,\"Angle4\":null,\"Angle5\":null,\"Tool\":\"Tool1\",\"Temperature\":null,\"PowerConsuption\":null}",
+                        "Informations": "{\"robotType\":\"Painting\",\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"U1BSMDA1\",\"capacity\":\"5\",\"motorPower\":\"3500 WATTS\",\"constructionMaterial\":\"Steel\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:03.9600762+00:00\",\"state\":\"Running\",\"machine_id\":\"SPR005\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:04.1024518+00:00\",\"alarmId\":\"5a4edcdf-6633-420d-9871-53f3beffc4f1\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"SPR005\"}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:04.054452+00:00\",\"machine_id\":\"SPR005\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"PaintSprayers\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}"
+                    },
+                    "SPR004": {
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:03.8677325+00:00\",\"machine_id\":\"SPR004\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"PaintSprayers\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Informations": "{\"robotType\":\"Painting\",\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"U1BSMDA0\",\"capacity\":\"5\",\"motorPower\":\"3500 WATTS\",\"constructionMaterial\":\"Steel\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:03.7570951+00:00\",\"state\":\"Running\",\"machine_id\":\"SPR004\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "Telemetry": "{\"Angle1\":null,\"Angle2\":null,\"Angle3\":null,\"Angle4\":null,\"Angle5\":null,\"Tool\":\"Tool1\",\"Temperature\":null,\"PowerConsuption\":null}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:03.9144757+00:00\",\"alarmId\":\"2fbabc54-61b0-428d-a47b-8eaf2d03cc34\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"SPR004\"}"
+                    },
+                    "SPR001": {
+                        "Informations": "{\"robotType\":\"Painting\",\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"U1BSMDAx\",\"capacity\":\"5\",\"motorPower\":\"3500 WATTS\",\"constructionMaterial\":\"Steel\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:03.1563391+00:00\",\"state\":\"Running\",\"machine_id\":\"SPR001\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:03.2547504+00:00\",\"machine_id\":\"SPR001\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"PaintSprayers\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Telemetry": "{\"Angle1\":null,\"Angle2\":null,\"Angle3\":null,\"Angle4\":null,\"Angle5\":null,\"Tool\":\"Tool1\",\"Temperature\":null,\"PowerConsuption\":null}",
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:03.3007458+00:00\",\"alarmId\":\"6c5dee21-f2c5-418e-a652-858f5a22a8bc\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"SPR001\"}"
+                    },
+                    "CMMS": {
+                        "Maintenance": "{\"Timestamp\":\"2024-07-23T08:51:58.4423385+00:00\",\"MaintenanceStatus\":\"Scheduled\"}"
+                    },
+                    "SPR003": {
+                        "Alarms": "{\"Timestamp\":\"2024-07-23T08:52:03.7120393+00:00\",\"alarmId\":\"8976c3a0-5a76-45d6-89a2-d8d1d9addddc\",\"alarmType\":\"HumanControlNeeded\",\"alarmStatus\":\"Cleared\",\"machine_id\":\"SPR003\"}",
+                        "PredictiveMaintenance": "{\"Timestamp\":\"2024-07-23T08:52:03.6606747+00:00\",\"machine_id\":\"SPR003\",\"model\":\"N/A\",\"Area\":\"PaintShop\",\"Line\":\"PaintSprayers\",\"PredictedState\":\"NoFutureIssues\",\"State\":\"Operating\"}",
+                        "Telemetry": "{\"Angle1\":null,\"Angle2\":null,\"Angle3\":null,\"Angle4\":null,\"Angle5\":null,\"Tool\":\"Tool1\",\"Temperature\":null,\"PowerConsuption\":null}",
+                        "Informations": "{\"robotType\":\"Painting\",\"manufacturer\":\"FANUC\",\"modelYear\":\"2022\",\"serailnumber\":\"U1BSMDAz\",\"capacity\":\"5\",\"motorPower\":\"3500 WATTS\",\"constructionMaterial\":\"Steel\",\"rotationSpeed\":\"350 RPM\",\"timestamp\":\"2024-07-23T08:52:03.5492619+00:00\",\"state\":\"Running\",\"machine_id\":\"SPR003\",\"powerConsuption\":null,\"alarm\":{\"alarm_code\":null,\"alarm_status\":null,\"alarm_details\":null}}"
+                    },
+                    "QMS": {
+                        "Quality": "{\"Timestamp\":\"2024-07-23T08:51:58.3999965+00:00\",\"ProduInspectionResulttCode\":\"Passed\"}"
+                    }
+                },
+                "KPIs": {
+                    "KPI03": "{\"timestamp\":\"2024-07-23T08:51:57.3265628+00:00\",\"value\":\"17\"}",
+                    "KPI02": "{\"timestamp\":\"2024-07-23T08:51:57.2753119+00:00\",\"value\":\"35\"}",
+                    "KPI01": "{\"timestamp\":\"2024-07-23T08:51:57.1968427+00:00\",\"value\":\"57\"}"
+                }
+            }
+        }
+    }
+}

@@ -3,8 +3,7 @@ from fastapi.responses import StreamingResponse
 from openai import BaseModel
 import uvicorn
 
-from src.backend.chat_bot import AgentManager
-from src.utils import logger
+from backend.chat_bot import AgentManager  # Corrected import path
 
 
 agent_manager = AgentManager()
@@ -26,12 +25,12 @@ async def stream(human_message, session_id, callbacks=None):
                 if content:
                     yield content
             elif kind == "on_tool_start":
-                logger.info(
+                print(
                     f"Starting tool: {event['name']} with inputs: {event['data'].get('input')}"
                 )
             elif kind == "on_tool_end":
-                logger.info(f"Done tool: {event['name']}")
-                logger.info(f"Tool output was: {event['data'].get('output')}")
+                print(f"Done tool: {event['name']}")
+                print(f"Tool output was: {event['data'].get('output')}")
 
     return StreamingResponse(event_generator(), media_type="text/event-stream")
 

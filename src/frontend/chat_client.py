@@ -1,6 +1,5 @@
 import json
 import requests
-from src.utils import logger
 
 
 class ChatClient:
@@ -35,5 +34,5 @@ class ChatClient:
                         yield chunk.decode("utf-8")
 
         except Exception as e:
-            logger.info(e)
+            print(e)
             yield "I'm sorry, but I'm having trouble processing your request. Please try again."
