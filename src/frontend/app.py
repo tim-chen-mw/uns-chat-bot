@@ -9,8 +9,8 @@ from langchain_community.callbacks.streamlit import (
     StreamlitCallbackHandler,
 )
 
+from config.config import CHAT_API_URL
 from frontend.chat_client import ChatClient
-from utils.config import CHAT_API_URL
 
 T = TypeVar("T")
 
@@ -80,7 +80,7 @@ if prompt := st.chat_input("How can I help you?"):
     with st.chat_message("assistant"):
         message_placeholder = st.empty()
         response = ""
-        response_stream = client.stream(prompt, session_id=st.session_state.session_id)
+        response_stream = client.stream(prompt, st.session_state.session_id)
 
         with st.spinner("Thinking..."):
             for chunk in response_stream:

@@ -13,7 +13,6 @@ services:
     env_file:
       - .env
     restart: unless-stopped
-    network_mode: "host"
     volumes:
       - ./readonly-user.kubeconfig:/readonly-user.kubeconfig
 
@@ -27,11 +26,6 @@ services:
     env_file:
       - .env
     restart: unless-stopped
-    network_mode: "host"
     volumes:
       - ./readonly-user.kubeconfig:/readonly-user.kubeconfig
 
-  uns-factory-simulator:
-      image: anthonyolazabal/uns-factory-simulator:1.1.1
-      env_file:
-      - .env

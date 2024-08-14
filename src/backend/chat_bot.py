@@ -3,7 +3,7 @@ from langgraph.checkpoint import MemorySaver
 from langgraph.checkpoint.base import empty_checkpoint, BaseCheckpointSaver
 from langgraph.prebuilt import create_react_agent
 from backend.tools import generate_name
-from utils.config import AZURE_OPENAI_DEPLOYMENT_NAME
+from src.config.config import AZURE_OPENAI_DEPLOYMENT_NAME
 
 
 class AgentManager:
