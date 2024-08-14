@@ -25,32 +25,7 @@ def combine_chunks(chunks):
     return result
 
 
-def get_complex_chain():
-    trivial_llm_system_prompt = "You are a helpful assistant"
-    prompt = ChatPromptTemplate.from_messages(
-        [
-            ("system", trivial_llm_system_prompt),
-            MessagesPlaceholder(variable_name="messages"),
-        ]
-    )
-
-    trivial_chat_instance = AzureChatOpenAI(
-        openai_api_key=AZURE_OPENAI_API_KEY,
-        azure_endpoint=AZURE_OPENAI_ENDPOINT,
-        openai_api_version=AZURE_OPENAI_API_VERSION,
-        deployment_name=AZURE_OPENAI_DEPLOYMENT_NAME,
-        temperature=0,
-        streaming=True
-    )
-
-    trivial_llm_tools = [generate_name]
-
-    trivial_chat_instance_with_tools = trivial_chat_instance.bind_tools(trivial_llm_tools)
-
-    return prompt | trivial_chat_instance_with_tools
-
-
-def get_trivial_chain():
+def get_sub_chain():
     trivial_llm_system_prompt = "You are a helpful assistant"
     prompt = ChatPromptTemplate.from_messages(
         [
@@ -121,17 +96,16 @@ async def process_tool_calls(response, chat_history, chain):
 
 
 @tool(args_schema=SubLlmToolCall)
-async def sub_llm_call(chat_input: str, model: str) -> AsyncGenerator[AIMessageChunk, None]:
+async def sub_llm_call(chat_input: str) -> AsyncGenerator[AIMessageChunk, None]:
     """
+    TODO: Change the docstring to describe the function.
     Calls a sub llm to process the user's request. The sub llm can handle anything that is related to employee profile data.
     It takes the current user chat input and returns an async generator object iterable to retrieve chunks of the response from the sub llm.
-    The complex model has the tools "perform_semantic_search" and "get_employee_profiles" built in.
-    The trivial model only has the tool "get_employee_profiles" built in.
-    The trivial model should only be used for trivial tasks like summarizing or translating a profile or parts of it.
+    The sub llm should handle any complex tasks that the main llm cannot handle on its own.
+    The sub llm can use: 
 
     Args:
         chat_input (str): The chat input from the user.
-        model (str): The model to use for the sub llm. Valid values are "trivial" and "complex".
 
     Returns:
         response: An async generator object that can be iterated to retrieve chunks of the sub llms response.
@@ -141,14 +115,9 @@ async def sub_llm_call(chat_input: str, model: str) -> AsyncGenerator[AIMessageC
         chat_history = ChatMessageHistory()
         chunks = []
 
-        logger.info("Calling sub-LLM with %s model...", model)
+        logger.info("Calling sub-LLM")
 
-        if (model == "trivial"):
-            chain = get_trivial_chain()
-        elif (model == "complex"):
-            chain = get_complex_chain()
-        else:
-            raise ValueError(f"Invalid model passed to sub_llm_call: {model}")
+        chain = get_sub_chain()
 
         logger.debug("Sub Context: Chain initalized...")
         logger.debug("Adding user message to chat history...")
