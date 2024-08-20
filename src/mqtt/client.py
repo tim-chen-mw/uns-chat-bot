@@ -2,7 +2,7 @@ import logging
 import paho.mqtt.client as mqtt
 import ssl
 
-from src.config.config import MQTT_CLIENTID, MQTT_HOST, MQTT_PASSWORD, MQTT_PORT, MQTT_TOPICS, MQTT_USERNAME
+from config.config import MQTT_CLIENTID, MQTT_HOST, MQTT_PASSWORD, MQTT_PORT, MQTT_TOPICS, MQTT_USERNAME
 
 
 class MqttClient:

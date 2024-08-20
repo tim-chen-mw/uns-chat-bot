@@ -13,8 +13,6 @@ services:
     env_file:
       - .env
     restart: unless-stopped
-    volumes:
-      - ./readonly-user.kubeconfig:/readonly-user.kubeconfig
 
   backend:
     container_name: uns-backend
@@ -26,6 +24,11 @@ services:
     env_file:
       - .env
     restart: unless-stopped
-    volumes:
-      - ./readonly-user.kubeconfig:/readonly-user.kubeconfig
 
+  pizza-uns:
+      image: pizza-uns:latest
+      network_mode: host
+      ports:
+        - "8000:8000"
+      env_file:
+        - .env

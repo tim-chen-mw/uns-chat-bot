@@ -17,7 +17,6 @@ T = TypeVar("T")
 client = ChatClient(CHAT_API_URL)
 
 
-# Workaround for compatibility between StreamlitCallback and LangGraph
 def get_streamlit_cb(parent_container: DeltaGenerator):
     def decor(fn: Callable[..., T]) -> Callable[..., T]:
         ctx = get_script_run_ctx()

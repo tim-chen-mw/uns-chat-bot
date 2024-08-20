@@ -12,8 +12,14 @@ CHAT_API_URL = os.getenv("CHAT_API_URL")
 
 # MQTT
 MQTT_HOST = os.environ.get("MQTT_HOST")
-MQTT_PORT = int(os.environ.get("MQTT_PORT"))
+MQTT_PORT = os.environ.get("MQTT_PORT")
 MQTT_USERNAME = os.environ.get("MQTT_USERNAME")
 MQTT_PASSWORD = os.environ.get("MQTT_PASSWORD")
 MQTT_CLIENTID = os.environ.get("MQTT_CLIENTID")
 MQTT_TOPICS = os.environ.get("MQTT_TOPICS")
+
+# MQTT Broker
+brokerAddress = os.getenv("brokerAddress")
+borkerPort = os.getenv("borkerPort")
+brokerUsername = os.getenv("brokerUsername")
+brokerPassword = os.getenv("brokerPassword")
