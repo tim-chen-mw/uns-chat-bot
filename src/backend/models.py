@@ -27,4 +27,3 @@ class SubLlmToolCall(BaseModel):  # pylint: disable=too-few-public-methods
         model (str): The model to use for the sub-language model. Valid values are 'trivial' and 'complex'.
     """
     chat_input: str = Field(description="The chat input from the user.")
-    model: str = Field(description="The model to use for the sub-language model. Valid values are 'trivial' and 'complex'.")
