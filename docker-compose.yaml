@@ -26,6 +26,9 @@ services:
     restart: unless-stopped
 
   pizza-uns:
+      build:
+        context: ./UnsSimulator
+        dockerfile: Dockerfile
       image: pizza-uns:latest
       network_mode: host
       ports:
