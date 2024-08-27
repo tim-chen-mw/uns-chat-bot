@@ -1,0 +1,1520 @@
+{
+    "Pizza/pizzaDoughPreparation/ERP": {
+        "OrderNumber": 689743,
+        "OrderQuanity": 930,
+        "PriorityLevel": "Low",
+        "ScheduledStartDate": "08/28/2024 14:16:12",
+        "ScheduledEndDate": "08/28/2024 17:16:12",
+        "BatchNumber": "Batch-jqCNg",
+        "ProductInformation": "Vegan"
+    },
+    "Pizza/pizzaDoughPreparation/MES": {
+        "production": [
+            {
+                "machine_id": "DKM001",
+                "jobStatus": {
+                    "timestamp": "2024-08-28T02:51:40.599863",
+                    "value": "0"
+                },
+                "jobStartTime": "2024-08-27T20:08:38.599863",
+                "jobEndTime": "2024-08-28T06:30:40.599863",
+                "producedQuantity": {
+                    "timestamp": "2024-08-27T14:22:14.599863",
+                    "value": "111"
+                },
+                "recipe": {
+                    "flourWeight": {
+                        "value": 456,
+                        "unit": "kg"
+                    },
+                    "waterWeight": {
+                        "value": 242,
+                        "unit": "kg"
+                    },
+                    "yeastWeight": {
+                        "value": 10,
+                        "unit": "kg"
+                    },
+                    "saltWeight": {
+                        "value": 12,
+                        "unit": "kg"
+                    },
+                    "oilWeight": {
+                        "value": 9,
+                        "unit": "kg"
+                    }
+                },
+                "qualityParameters": {
+                    "timestamp": "2024-08-27T22:02:44.599863",
+                    "OrderNumber": 553278,
+                    "doughTemperatureMin": {
+                        "value": "9",
+                        "unit": "\u00b0C"
+                    },
+                    "doughTemperatureMax": {
+                        "value": "18",
+                        "unit": "\u00b0C"
+                    },
+                    "ambiantHumidityMin": {
+                        "value": "75",
+                        "unit": "%"
+                    },
+                    "ambiantHumidityMax": {
+                        "value": "89",
+                        "unit": "%"
+                    },
+                    "ambiantTemperatureMin": {
+                        "value": "10",
+                        "unit": "\u00b0C"
+                    },
+                    "ambiantTemperatureMax": {
+                        "value": "18",
+                        "unit": "\u00b0C"
+                    }
+                }
+            },
+            {
+                "machine_id": "DKM002",
+                "jobStatus": {
+                    "timestamp": "2024-08-27T21:34:18.599863",
+                    "value": "0"
+                },
+                "jobStartTime": "2024-08-27T18:15:20.599863",
+                "jobEndTime": "2024-08-28T01:34:17.599863",
+                "producedQuantity": {
+                    "timestamp": "2024-08-28T05:29:34.599863",
+                    "value": "157"
+                },
+                "recipe": {
+                    "flourWeight": {
+                        "value": 469,
+                        "unit": "kg"
+                    },
+                    "waterWeight": {
+                        "value": 128,
+                        "unit": "kg"
+                    },
+                    "yeastWeight": {
+                        "value": 16,
+                        "unit": "kg"
+                    },
+                    "saltWeight": {
+                        "value": 15,
+                        "unit": "kg"
+                    },
+                    "oilWeight": {
+                        "value": 12,
+                        "unit": "kg"
+                    }
+                },
+                "qualityParameters": {
+                    "timestamp": "2024-08-28T11:13:39.599863",
+                    "OrderNumber": 551148,
+                    "doughTemperatureMin": {
+                        "value": "10",
+                        "unit": "\u00b0C"
+                    },
+                    "doughTemperatureMax": {
+                        "value": "15",
+                        "unit": "\u00b0C"
+                    },
+                    "ambiantHumidityMin": {
+                        "value": "75",
+                        "unit": "%"
+                    },
+                    "ambiantHumidityMax": {
+                        "value": "88",
+                        "unit": "%"
+                    },
+                    "ambiantTemperatureMin": {
+                        "value": "12",
+                        "unit": "\u00b0C"
+                    },
+                    "ambiantTemperatureMax": {
+                        "value": "14",
+                        "unit": "\u00b0C"
+                    }
+                }
+            },
+            {
+                "machine_id": "DKM003",
+                "jobStatus": {
+                    "timestamp": "2024-08-27T15:06:56.599863",
+                    "value": "1"
+                },
+                "jobStartTime": "2024-08-28T14:02:36.599863",
+                "jobEndTime": "2024-08-28T01:24:25.599863",
+                "producedQuantity": {
+                    "timestamp": "2024-08-27T21:08:52.599863",
+                    "value": "188"
+                },
+                "recipe": {
+                    "flourWeight": {
+                        "value": 457,
+                        "unit": "kg"
+                    },
+                    "waterWeight": {
+                        "value": 124,
+                        "unit": "kg"
+                    },
+                    "yeastWeight": {
+                        "value": 12,
+                        "unit": "kg"
+                    },
+                    "saltWeight": {
+                        "value": 13,
+                        "unit": "kg"
+                    },
+                    "oilWeight": {
+                        "value": 12,
+                        "unit": "kg"
+                    }
+                },
+                "qualityParameters": {
+                    "timestamp": "2024-08-28T06:42:51.599863",
+                    "OrderNumber": 801196,
+                    "doughTemperatureMin": {
+                        "value": "13",
+                        "unit": "\u00b0C"
+                    },
+                    "doughTemperatureMax": {
+                        "value": "17",
+                        "unit": "\u00b0C"
+                    },
+                    "ambiantHumidityMin": {
+                        "value": "70",
+                        "unit": "%"
+                    },
+                    "ambiantHumidityMax": {
+                        "value": "81",
+                        "unit": "%"
+                    },
+                    "ambiantTemperatureMin": {
+                        "value": "13",
+                        "unit": "\u00b0C"
+                    },
+                    "ambiantTemperatureMax": {
+                        "value": "14",
+                        "unit": "\u00b0C"
+                    }
+                }
+            }
+        ],
+        "KPI": {
+            "OEE": {
+                "timestamp": "2024-08-27T18:23:16.817813",
+                "Availability": 0.48147897940249995,
+                "Performance": 0.6848358692647993,
+                "Quality": 0.5128748331971653,
+                "OEE": 0.1691123089160112
+            },
+            "MTTR": {
+                "timestamp": "2024-08-27T21:26:54.599863",
+                "value": "30.256237263021998"
+            }
+        }
+    },
+    "Pizza/pizzaDoughPreparation/CMMS": {
+        "maintenanceJobList": [
+            {
+                "timestamp": "2024-08-27T14:25:41.599863",
+                "machineId": "PWR001",
+                "jobStatus": "scheduled",
+                "jobStartTime": "2024-08-28T10:32:39.599863",
+                "jobEndTime": "2024-08-28T11:43:59.599863",
+                "jobDescription": "routine check",
+                "maintenanceType": "corrective",
+                "maintenanceTechnician": "n08Fw"
+            }
+        ]
+    },
+    "Pizza/pizzaDoughPreparation/RCA001/informations": {
+        "type": "RoomClimateAnalyzer",
+        "manufacturer": "AirMasters",
+        "modelYear": "2018",
+        "serialNumber": "RCA590Iy",
+        "timestamp": "2024-08-28T12:44:37.599863",
+        "machineId": "RCA001"
+    },
+    "Pizza/pizzaDoughPreparation/RCA001/machineData/ambiantHumidity": {
+        "value": 81,
+        "unit": "%"
+    },
+    "Pizza/pizzaDoughPreparation/RCA001/machineData/ambiantTemperature": {
+        "value": 13,
+        "unit": "\u00b0C"
+    },
+    "Pizza/pizzaDoughPreparation/DKM001/informations": {
+        "type": "DoughKneadingMachine",
+        "manufacturer": "DoughMasters",
+        "modelYear": "2018",
+        "serialNumber": "KMqft2e",
+        "capacity": 1125,
+        "capacityUnit": "kg",
+        "ratedPower": 1488,
+        "unit": "WATTS",
+        "timestamp": "2024-08-27T21:24:41.599863",
+        "machineId": "DKM001"
+    },
+    "Pizza/pizzaDoughPreparation/DKM001/machineData/machineStatus": {
+        "value": 0,
+        "unit": "integer",
+        "description": "Machine status. Running = 1, Stopped = 0",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM001/machineData/loadingWeight": {
+        "value": 1073,
+        "unit": "g",
+        "description": "Total weight of product in kneading machine",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM001/machineData/kneadingTime": {
+        "value": 1846,
+        "unit": "seconds",
+        "description": "Total kneading time for the dough",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM001/machineData/remainingTime": {
+        "value": 32,
+        "unit": "seconds",
+        "description": "Remaining Time until kneading is finished",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM001/machineData/speed": {
+        "value": 169,
+        "unit": "rpm",
+        "description": "Current speed of the kneading machine",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM001/machineData/doughTemperature": {
+        "value": 25,
+        "unit": "\u00b0C",
+        "description": "Temperature of the dough during kneading",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM001/machineData/alarms": [
+        {
+            "timestamp": "2024-08-28T08:49:20.599863",
+            "alarmId": 41712,
+            "alarmType": "KneadingTimeExceeded",
+            "alarmStatus": "Cleared",
+            "machineId": "DKM001"
+        },
+        {
+            "timestamp": "2024-08-27T18:12:04.599863",
+            "alarmId": 42303,
+            "alarmType": "DoughTemperatureTooHigh",
+            "alarmStatus": "Cleared",
+            "machineId": "DKM001"
+        }
+    ],
+    "Pizza/pizzaDoughPreparation/DKM002/informations": {
+        "type": "DoughKneadingMachine",
+        "manufacturer": "DoughMasters",
+        "modelYear": "2015",
+        "serialNumber": "KMjufEf",
+        "capacity": 786,
+        "capacityUnit": "kg",
+        "ratedPower": 1618,
+        "unit": "WATTS",
+        "timestamp": "2024-08-27T23:04:28.599863",
+        "machineId": "DKM002"
+    },
+    "Pizza/pizzaDoughPreparation/DKM002/machineData/machineStatus": {
+        "value": 1,
+        "unit": "integer",
+        "description": "Machine status. Running = 1, Stopped = 0",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM002/machineData/loadingWeight": {
+        "value": 1033,
+        "unit": "g",
+        "description": "Total weight of product in kneading machine",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM002/machineData/kneadingTime": {
+        "value": 1855,
+        "unit": "seconds",
+        "description": "Total kneading time for the dough",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM002/machineData/remainingTime": {
+        "value": 85,
+        "unit": "seconds",
+        "description": "Remaining Time until kneading is finished",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM002/machineData/speed": {
+        "value": 167,
+        "unit": "rpm",
+        "description": "Current speed of the kneading machine",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM002/machineData/doughTemperature": {
+        "value": 12,
+        "unit": "\u00b0C",
+        "description": "Temperature of the dough during kneading",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM002/machineData/alarms": [
+        {
+            "timestamp": "2024-08-28T03:05:35.599863",
+            "alarmId": 57014,
+            "alarmType": "DoughTemperatureTooHigh",
+            "alarmStatus": "Cleared",
+            "machineId": "DKM002"
+        },
+        {
+            "timestamp": "2024-08-27T22:15:24.599863",
+            "alarmId": 23646,
+            "alarmType": "KneadingTimeExceeded",
+            "alarmStatus": "Active",
+            "machineId": "DKM002"
+        }
+    ],
+    "Pizza/pizzaDoughPreparation/DKM003/informations": {
+        "type": "DoughKneadingMachine",
+        "manufacturer": "DoughMasters",
+        "modelYear": "2019",
+        "serialNumber": "KMvbdM8",
+        "capacity": 831,
+        "capacityUnit": "kg",
+        "ratedPower": 1923,
+        "unit": "WATTS",
+        "timestamp": "2024-08-27T21:36:34.599863",
+        "machineId": "DKM003"
+    },
+    "Pizza/pizzaDoughPreparation/DKM003/machineData/machineStatus": {
+        "value": 1,
+        "unit": "integer",
+        "description": "Machine status. Running = 1, Stopped = 0",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM003/machineData/loadingWeight": {
+        "value": 2637,
+        "unit": "g",
+        "description": "Total weight of product in kneading machine",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM003/machineData/kneadingTime": {
+        "value": 1086,
+        "unit": "seconds",
+        "description": "Total kneading time for the dough",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM003/machineData/remainingTime": {
+        "value": 99,
+        "unit": "seconds",
+        "description": "Remaining Time until kneading is finished",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM003/machineData/speed": {
+        "value": 187,
+        "unit": "rpm",
+        "description": "Current speed of the kneading machine",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM003/machineData/doughTemperature": {
+        "value": 19,
+        "unit": "\u00b0C",
+        "description": "Temperature of the dough during kneading",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/pizzaDoughPreparation/DKM003/machineData/alarms": [
+        {
+            "timestamp": "2024-08-27T23:46:42.599863",
+            "alarmId": 76739,
+            "alarmType": "KneadingTimeExceeded",
+            "alarmStatus": "Cleared",
+            "machineId": "DKM003"
+        },
+        {
+            "timestamp": "2024-08-27T21:26:02.599863",
+            "alarmId": 98854,
+            "alarmType": "KneadingTimeExceeded",
+            "alarmStatus": "Cleared",
+            "machineId": "DKM003"
+        }
+    ],
+    "Pizza/portioningAndForming/ERP": {
+        "OrderNumber": 196735,
+        "OrderQuanity": 2991,
+        "PriorityLevel": "Low",
+        "ScheduledStartDate": "08/28/2024 14:16:12",
+        "ScheduledEndDate": "08/28/2024 17:16:12",
+        "BatchNumber": "Batch-t2cBz",
+        "ProductInformation": "Vegan"
+    },
+    "Pizza/portioningAndForming/MES/production": {
+        "jobStatus": "0",
+        "jobStartTime": "2024-08-28T01:52:00.599863",
+        "jobEndTime": "2024-08-28T10:36:50.599863",
+        "producedQuantity": "267",
+        "timestamp": "2024-08-28T12:08:20.599863"
+    },
+    "Pizza/portioningAndForming/MES/quality": {
+        "timestamp": "2024-08-28T00:19:29.599863",
+        "OrderNumber": 541043,
+        "AcceptanceQuantity": 237,
+        "RejectionQuantity": 4,
+        "minWeightPerBun": {
+            "value": 150,
+            "unit": "g"
+        },
+        "maxWeightPerBun": {
+            "value": 154,
+            "unit": "g"
+        },
+        "minBunsPerMinute": {
+            "value": 39,
+            "unit": "1/min"
+        },
+        "maxBunsPerMinute": {
+            "value": 48,
+            "unit": "1/min"
+        },
+        "minBunDiameter": {
+            "value": 7,
+            "unit": "cm"
+        },
+        "maxBunDiameter": {
+            "value": 11,
+            "unit": "cm"
+        },
+        "minFormedDiameter": {
+            "value": 23,
+            "unit": "cm"
+        },
+        "maxFormedDiameter": {
+            "value": 28,
+            "unit": "cm"
+        }
+    },
+    "Pizza/portioningAndForming/MES/KPI/OEE": {
+        "timestamp": "2024-08-27T17:13:02.817813",
+        "Availability": 0.1327518536005215,
+        "Performance": 0.11007747689299467,
+        "Quality": 0.3077124067049561,
+        "OEE": 0.004496598044256886
+    },
+    "Pizza/portioningAndForming/MES/KPI/MTTR": {
+        "timestamp": "2024-08-27T16:33:55.599863",
+        "value": "31.210006745357706"
+    },
+    "Pizza/portioningAndForming/MES/MaintenanceStatus": {
+        "timestamp": "2024-08-28T01:28:28.599863",
+        "value": 0
+    },
+    "Pizza/portioningAndForming/CMMS": {
+        "maintenanceJobList": [
+            {
+                "timestamp": "2024-08-27T15:28:29.599863",
+                "machineId": "PWR001",
+                "jobStatus": "scheduled",
+                "jobStartTime": "2024-08-28T12:52:24.599863",
+                "jobEndTime": "2024-08-27T18:21:09.599863",
+                "jobDescription": "routine check",
+                "maintenanceType": "corrective",
+                "maintenanceTechnician": null
+            }
+        ]
+    },
+    "Pizza/portioningAndForming/RCA003/informations": {
+        "type": "RoomClimateAnalyzer",
+        "manufacturer": "AirMasters",
+        "modelYear": "2018",
+        "serialNumber": "RCAtAAps",
+        "timestamp": "2024-08-28T01:21:21.599863",
+        "machineId": "RCA003"
+    },
+    "Pizza/portioningAndForming/RCA003/machineData/ambiantHumidity": {
+        "value": 78,
+        "unit": "%"
+    },
+    "Pizza/portioningAndForming/RCA003/machineData/ambiantTemperature": {
+        "value": 14,
+        "unit": "\u00b0C"
+    },
+    "Pizza/portioningAndForming/PTN001/informations": {
+        "type": "Portioner",
+        "manufacturer": "PortionMaster",
+        "modelYear": "2019",
+        "serialNumber": "PMOjhEE",
+        "capacity": 1365,
+        "capacityUnit": "kg",
+        "operatingPressure": 8,
+        "operatingPressureUnit": "bar",
+        "timestamp": "2024-08-27T19:41:50.599863",
+        "machineId": "PTN001"
+    },
+    "Pizza/portioningAndForming/PTN001/machineData/weightOfBun": {
+        "value": 101,
+        "unit": "g",
+        "description": "Weight of each portion",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/portioningAndForming/PTN001/machineData/diameterOfBun": {
+        "value": 15,
+        "unit": "cm",
+        "description": "Size of each portion",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/portioningAndForming/PTN001/machineData/speed": {
+        "value": 66,
+        "unit": "buns/min",
+        "description": "Portioning speed",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/portioningAndForming/PTN001/machineData/alarms": [
+        {
+            "timestamp": "2024-08-28T09:34:39.599863",
+            "alarmId": 98354,
+            "alarmType": "PortionSizeMismatch",
+            "alarmStatus": "Resolved",
+            "machineId": "PTN001"
+        },
+        {
+            "timestamp": "2024-08-28T03:40:27.599863",
+            "alarmId": 17665,
+            "alarmType": "PortionWeightMismatch",
+            "alarmStatus": "Resolved",
+            "machineId": "PTN001"
+        }
+    ],
+    "Pizza/portioningAndForming/FRM001/informations": {
+        "type": "Former",
+        "manufacturer": "FormMaster",
+        "modelYear": "2020",
+        "serialNumber": "FMzhKCZ",
+        "capacity": 71,
+        "capacityUnit": "forms/minute",
+        "ratedPower": 6711,
+        "unit": "WATTS",
+        "timestamp": "2024-08-27T22:56:10.599863",
+        "machineId": "FRM001"
+    },
+    "Pizza/portioningAndForming/FRM001/machineData/formingTime": {
+        "value": 1,
+        "unit": "s",
+        "description": "Time to form one portion",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/portioningAndForming/FRM001/machineData/pressure": {
+        "value": 3,
+        "unit": "bar",
+        "description": "Forming pressure",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/portioningAndForming/FRM001/machineData/formedDiameter": {
+        "value": 20,
+        "unit": "cm",
+        "description": "Forming diameter",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/portioningAndForming/FRM001/machineData/alarms": [
+        {
+            "timestamp": "2024-08-27T16:06:27.599863",
+            "alarmId": 82662,
+            "alarmType": "formedSizeMismatch",
+            "alarmStatus": "Active",
+            "machineId": "FRM001"
+        },
+        {
+            "timestamp": "2024-08-28T07:25:55.599863",
+            "alarmId": 56605,
+            "alarmType": "formedSizeMismatch",
+            "alarmStatus": "Cleared",
+            "machineId": "PTN001"
+        }
+    ],
+    "Pizza/portioningAndForming/BLT001/informations": {
+        "type": "ConveyorBelt",
+        "manufacturer": "ConveyorMasters",
+        "modelYear": "2019",
+        "serialNumber": "CB5qxLy",
+        "capacity": 74,
+        "capacityUnit": "kg/m",
+        "timestamp": "2024-08-27T19:53:26.599863",
+        "machineId": "BLT001"
+    },
+    "Pizza/portioningAndForming/BLT001/machineData/beltSpeed": {
+        "value": 0.24,
+        "unit": "m/s",
+        "description": "Speed of the conveyor belt",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/portioningAndForming/BLT001/machineData/temperature": {
+        "value": 14,
+        "unit": "\u00b0C",
+        "description": "Temperature around the conveyor belt",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/portioningAndForming/BLT001/machineData/alarms": [
+        {
+            "timestamp": "2024-08-28T10:52:00.599863",
+            "alarmId": 99848,
+            "alarmType": "BeltStopped",
+            "alarmStatus": "Active",
+            "machineId": "CVB001"
+        }
+    ],
+    "Pizza/bakingAndCooldown/ERP": {
+        "OrderNumber": 595031,
+        "OrderQuanity": 234,
+        "PriorityLevel": "Low",
+        "ScheduledStartDate": "08/28/2024 14:16:12",
+        "ScheduledEndDate": "08/28/2024 17:16:12",
+        "BatchNumber": "Batch-mZ0uW",
+        "ProductInformation": "Vegan"
+    },
+    "Pizza/bakingAndCooldown/MES/production": {
+        "jobStatus": "0",
+        "jobStartTime": "2024-08-28T04:29:57.599863",
+        "jobEndTime": "2024-08-28T05:23:17.599863",
+        "producedQuantity": "112",
+        "timestamp": "2024-08-28T01:57:20.599863"
+    },
+    "Pizza/bakingAndCooldown/MES/quality": {
+        "timestamp": "2024-08-27T16:02:48.599863",
+        "OrderNumber": 889827,
+        "AcceptanceQuantity": 162,
+        "RejectionQuantity": 2,
+        "minOvenTemperature": {
+            "value": 213,
+            "unit": "\u00b0C"
+        },
+        "maxOvenTemperature": {
+            "value": 223,
+            "unit": "\u00b0C"
+        },
+        "minTempAfterCooldown": {
+            "value": 15,
+            "unit": "\u00b0C"
+        },
+        "maxTempAfterCooldown": {
+            "value": 21,
+            "unit": "\u00b0C"
+        }
+    },
+    "Pizza/bakingAndCooldown/MES/KPI/OEE": {
+        "timestamp": "2024-08-27T15:32:25.817813",
+        "Availability": 0.2842307007540201,
+        "Performance": 0.9096141025811599,
+        "Quality": 0.5407212896916185,
+        "OEE": 0.13979821946781526
+    },
+    "Pizza/bakingAndCooldown/MES/KPI/MTTR": {
+        "timestamp": "2024-08-28T04:13:00.599863",
+        "value": "57.96223293802966"
+    },
+    "Pizza/bakingAndCooldown/MES/MaintenanceStatus": {
+        "timestamp": "2024-08-28T00:21:12.599863",
+        "value": 0
+    },
+    "Pizza/bakingAndCooldown/CMMS": {
+        "maintenanceJobList": [
+            {
+                "timestamp": "2024-08-27T14:28:15.599863",
+                "machineId": "PWR001",
+                "jobStatus": "completed",
+                "jobStartTime": "2024-08-28T07:16:19.599863",
+                "jobEndTime": "2024-08-27T20:31:10.599863",
+                "jobDescription": "conveyor belt maintenance",
+                "maintenanceType": "preventive",
+                "maintenanceTechnician": "pbdmy"
+            }
+        ]
+    },
+    "Pizza/bakingAndCooldown/RCA002/informations": {
+        "type": "RoomClimateAnalyzer",
+        "manufacturer": "AirMasters",
+        "modelYear": "2020",
+        "serialNumber": "RCAqiJ88",
+        "timestamp": "2024-08-27T21:55:05.599863",
+        "machineId": "RCA002"
+    },
+    "Pizza/bakingAndCooldown/RCA002/machineData/ambiantHumidity": {
+        "value": 78,
+        "unit": "%"
+    },
+    "Pizza/bakingAndCooldown/RCA002/machineData/ambiantTemperature": {
+        "value": 18,
+        "unit": "\u00b0C"
+    },
+    "Pizza/bakingAndCooldown/OVN001/informations": {
+        "type": "Oven",
+        "manufacturer": "BakeMaster",
+        "modelYear": "2020",
+        "serialNumber": "OVzeIu1",
+        "capacity": 73,
+        "capacityUnit": "pizzas/min",
+        "standardOperatingTemperature": 211,
+        "temperatureUnit": "\u00b0C",
+        "timestamp": "2024-08-27T20:27:45.599863",
+        "machineId": "OVN001"
+    },
+    "Pizza/bakingAndCooldown/OVN001/machineData/bakingTime": {
+        "value": 15,
+        "unit": "minutes",
+        "description": "Total baking time for each pizza",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/bakingAndCooldown/OVN001/machineData/entranceOvenTemperature": {
+        "value": 211,
+        "unit": "\u00b0C",
+        "description": "Oven temperature entrance measurement",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/bakingAndCooldown/OVN001/machineData/centerOvenTemperature": {
+        "value": 223,
+        "unit": "\u00b0C",
+        "description": "Oven temperature center measurement",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/bakingAndCooldown/OVN001/machineData/exitOvenTemperature": {
+        "value": 218,
+        "unit": "\u00b0C",
+        "description": "Oven temperature exit measurement",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/bakingAndCooldown/OVN001/machineData/alarms": [
+        {
+            "timestamp": "2024-08-27T16:45:14.599863",
+            "alarmId": 58922,
+            "alarmType": "entranceTemperatureTooLow",
+            "alarmStatus": "Active",
+            "machineId": "OVN001"
+        }
+    ],
+    "Pizza/bakingAndCooldown/BLT002/informations": {
+        "type": "ConveyorBelt",
+        "manufacturer": "ConveyorMasters",
+        "modelYear": "2017",
+        "serialNumber": "CBr20tG",
+        "capacity": 137,
+        "capacityUnit": "kg/m",
+        "timestamp": "2024-08-28T08:15:11.599863",
+        "machineId": "BLT002"
+    },
+    "Pizza/bakingAndCooldown/BLT002/machineData/beltSpeed": {
+        "value": 0.39,
+        "unit": "m/s",
+        "description": "Speed of the conveyor belt",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/bakingAndCooldown/BLT002/machineData/pizzaExitTemperature": {
+        "value": 23,
+        "unit": "\u00b0C",
+        "description": "Temperature of pizzas after cooldown",
+        "timestamp": "2024-08-27T14:16:12.599863"
+    },
+    "Pizza/bakingAndCooldown/BLT002/machineData/alarms": [
+        {
+            "timestamp": "2024-08-28T13:14:54.599863",
+            "alarmId": 93619,
+            "alarmType": "BeltSpeedTooLow",
+            "alarmStatus": "Cleared",
+            "machineId": "CVB002"
+        },
+        {
+            "timestamp": "2024-08-28T03:05:18.599863",
+            "alarmId": 21878,
+            "alarmType": "exitTemperatureExceeded",
+            "alarmStatus": "Cleared",
+            "machineId": "CVB002"
+        }
+    ],
+    "Pizza/topping/ERP": {
+        "OrderNumber": 275298,
+        "OrderQuantity": 289,
+        "PriorityLevel": "Low",
+        "ScheduledStartDate": "08/28/2024 14:16:51",
+        "ScheduledEndDate": "08/28/2024 17:16:51",
+        "BatchNumber": "Batch-JZxi7",
+        "ProductInformation": null
+    },
+    "Pizza/topping/MES/Production/JobStatus": {
+        "timestamp": "2024-08-27T15:11:38.528998",
+        "value": "0"
+    },
+    "Pizza/topping/MES/Production/JobStartTime": {
+        "timestamp": "2024-08-28T02:15:25.528998",
+        "value": "08/28/2024 15:16:51"
+    },
+    "Pizza/topping/MES/Production/JobEndTime": {
+        "timestamp": "2024-08-28T01:29:04.528998",
+        "value": "08/28/2024 18:16:51"
+    },
+    "Pizza/topping/MES/Production/RejectedQuantity": {
+        "timestamp": "2024-08-28T12:39:11.528998",
+        "value": "0"
+    },
+    "Pizza/topping/MES/Production/ProducedQuantity": {
+        "timestamp": "2024-08-27T19:30:48.528998",
+        "value": "300"
+    },
+    "Pizza/topping/MES/KPI/OEE": {
+        "timestamp": "2024-08-28T05:10:14.817813",
+        "Availability": 0.9369843229165699,
+        "Performance": 0.9066750046288349,
+        "Quality": 0.9890892029595408,
+        "OEE": 0.8402711039049493
+    },
+    "Pizza/topping/MES/KPI/MTTR": {
+        "timestamp": "2024-08-27T19:53:56.528998",
+        "value": "20.425600721519338"
+    },
+    "Pizza/topping/MES/Quality": {
+        "timestamp": "2024-08-27T17:48:48.528998",
+        "OrderNumber": 490021,
+        "AcceptanceQuantity": 202,
+        "RejectionQuantity": 13,
+        "TestingParameters": "SaZIbtbTDXA71S"
+    },
+    "Pizza/topping/MES/MaintenanceStatus": {
+        "timestamp": "2024-08-28T00:41:37.528998",
+        "value": 1
+    },
+    "Pizza/topping/CMMS": {
+        "maintenanceJobList": [
+            {
+                "timestamp": "2024-08-28T08:29:30.528998",
+                "machineId": "PWR001",
+                "jobStatus": "ongoing",
+                "jobStartTime": "2024-08-27T22:19:47.528998",
+                "jobEndTime": "2024-08-28T04:23:58.528998",
+                "jobDescription": "routine check",
+                "maintenanceType": "preventive",
+                "maintenanceTechnician": null
+            }
+        ]
+    },
+    "Pizza/topping/RCA004/informations": {
+        "type": "RoomClimateAnalyzer",
+        "manufacturer": "AirMasters",
+        "modelYear": "2019",
+        "serialNumber": "RCAED6vR",
+        "timestamp": "2024-08-27T14:35:50.528998",
+        "machineId": "RCA004"
+    },
+    "Pizza/topping/RCA004/machineData/ambiantHumidity": {
+        "value": 83,
+        "unit": "%"
+    },
+    "Pizza/topping/RCA004/machineData/ambiantTemperature": {
+        "value": 18,
+        "unit": "\u00b0C"
+    },
+    "Pizza/topping/TSD001/informations": {
+        "type": "TomatoSauceDispenser",
+        "manufacturer": "TomatoTech",
+        "modelYear": "2022",
+        "serialNumber": "TS7ufcZ",
+        "capacity": 17,
+        "capacityUnit": "L/hour",
+        "ratedPower": "2922 WATTS",
+        "timestamp": "2024-08-28T09:07:22.528998",
+        "machineId": "TSD001"
+    },
+    "Pizza/topping/TSD001/machineData/sauceAmount": {
+        "value": 159,
+        "unit": "g",
+        "description": "Amount of tomato sauce applied",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/TSD001/machineData/applicationTime": {
+        "value": 5,
+        "unit": "seconds",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/TSD001/machineData/temperature": {
+        "value": 24,
+        "unit": "\u00b0C",
+        "description": "Temperature of the tomato sauce",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/TSD001/machineData/spreadMethod": {
+        "value": "Nozzle sprayer",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/TSD001/alarms": {
+        "timestamp": "2024-08-28T04:18:15.528998",
+        "alarmId": 56793,
+        "alarmType": "HumanControlNeeded",
+        "alarmStatus": "Cleared",
+        "machineId": "TSD001"
+    },
+    "Pizza/topping/CHD001/informations": {
+        "type": "CheeseDispenser",
+        "manufacturer": "DairyTech",
+        "modelYear": "2020",
+        "serialNumber": "C1JTsFCW",
+        "capacity": 5,
+        "capacityUnit": "kg/hour",
+        "ratedPower": "2776 WATTS",
+        "timestamp": "2024-08-28T04:59:28.528998",
+        "machineId": "CHD001"
+    },
+    "Pizza/topping/CHD001/machineData/cheeseAmount": {
+        "value": 81,
+        "unit": "g",
+        "description": "Amount of shredded cheese applied",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/CHD001/machineData/applicationTime": {
+        "value": 3,
+        "unit": "seconds",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/CHD001/machineData/distributionMethod": {
+        "value": "Automatic dispenser",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/CHD001/machineData/temperature": {
+        "value": 4,
+        "unit": "\u00b0C",
+        "description": "Temperature of the cheese",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/CHD001/alarms": {
+        "timestamp": "2024-08-27T14:43:39.528998",
+        "alarmId": 39325,
+        "alarmType": "ComponentFailure",
+        "alarmStatus": "Active",
+        "machineId": "CD001"
+    },
+    "Pizza/topping/MSPM001/informations": {
+        "type": "MozzarellaSlicingPlacingMachine",
+        "manufacturer": "DairyTech",
+        "modelYear": "2022",
+        "serialNumber": "MZUpmTm",
+        "capacity": 42,
+        "capacityUnit": "kg/hour",
+        "ratedPower": "3027 WATTS",
+        "timestamp": "2024-08-28T11:36:45.528998",
+        "machineId": "MSPM001"
+    },
+    "Pizza/topping/MSPM001/machineData/mozzSlizes": {
+        "value": 11,
+        "unit": "slices",
+        "description": "Number of mozzarella slices added",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/MSPM001/machineData/sliceThickness": {
+        "value": 0.49,
+        "unit": "cm",
+        "description": "Thickness of each mozzarella slice",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/MSPM001/machineData/placementPattern": {
+        "value": "Evenly distributed",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/MSPM001/alarms": {
+        "timestamp": "2024-08-27T21:07:55.528998",
+        "alarmId": 42213,
+        "alarmType": "ComponentFailure",
+        "alarmStatus": "Active",
+        "machineId": "MSPM001"
+    },
+    "Pizza/topping/CTPM001/informations": {
+        "type": "CherryTomatoPlacingMachine",
+        "manufacturer": "VeggieTech",
+        "modelYear": "2023",
+        "serialNumber": "CTPnulYl",
+        "capacity": 23,
+        "capacityUnit": "kg/hour",
+        "ratedPower": "3207 WATTS",
+        "timestamp": "2024-08-27T16:45:29.528998",
+        "machineId": "CTPM001"
+    },
+    "Pizza/topping/CTPM001/machineData/tomatoNumbers": {
+        "value": 12,
+        "unit": "pcs",
+        "description": "Number of cherry tomatoes added",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/CTPM001/machineData/cutStyle": {
+        "value": "Halved",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/CTPM001/machineData/placementPattern": {
+        "value": "Evenly distributed",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/CTPM001/alarms": {
+        "timestamp": "2024-08-28T06:54:51.528998",
+        "alarmId": 52846,
+        "alarmType": "ComponentFailure",
+        "alarmStatus": "Active",
+        "machineId": "CTPM001"
+    },
+    "Pizza/topping/HSP001/informations": {
+        "type": "HerbSprinkler",
+        "manufacturer": "HerbTech",
+        "modelYear": "2019",
+        "serialNumber": "HSOq0fH",
+        "capacity": 13,
+        "capacityUnit": "kg/hour",
+        "ratedPower": "1629 WATTS",
+        "timestamp": "2024-08-28T03:07:35.528998",
+        "machineId": "HS001"
+    },
+    "Pizza/topping/HSP001/machineData/herbWeight": {
+        "value": 5,
+        "unit": "g",
+        "description": "Amount of herbs applied",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/HSP001/machineData/herbType": {
+        "value": "Oregano",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/HSP001/machineData/applicationMethod": {
+        "value": "Sprinkled manually",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/HSP001/machineData/origin": {
+        "value": "Non-Organic",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/topping/HSP001/alarms": {
+        "timestamp": "2024-08-28T10:24:18.528998",
+        "alarmId": 23954,
+        "alarmType": "ComponentFailure",
+        "alarmStatus": "Cleared",
+        "machineId": "HS001"
+    },
+    "Pizza/freezing/ERP": {
+        "OrderNumber": 458649,
+        "OrderQuantity": 964,
+        "PriorityLevel": "Low",
+        "ScheduledStartDate": "08/28/2024 14:16:51",
+        "ScheduledEndDate": "08/28/2024 17:16:51",
+        "BatchNumber": "Batch-8Y3jk",
+        "ProductInformation": null
+    },
+    "Pizza/freezing/MES/Production/JobStatus": {
+        "timestamp": "2024-08-28T00:16:26.528998",
+        "value": "0"
+    },
+    "Pizza/freezing/MES/Production/JobStartTime": {
+        "timestamp": "2024-08-28T01:33:59.528998",
+        "value": "08/28/2024 15:16:51"
+    },
+    "Pizza/freezing/MES/Production/JobEndTime": {
+        "timestamp": "2024-08-28T09:51:57.528998",
+        "value": "08/28/2024 18:16:51"
+    },
+    "Pizza/freezing/MES/Production/RejectedQuantity": {
+        "timestamp": "2024-08-28T08:22:04.528998",
+        "value": "6"
+    },
+    "Pizza/freezing/MES/Production/ProducedQuantity": {
+        "timestamp": "2024-08-28T06:28:59.528998",
+        "value": "295"
+    },
+    "Pizza/freezing/MES/KPI/OEE": {
+        "timestamp": "2024-08-27T19:26:32.817813",
+        "Availability": 0.6667861176379419,
+        "Performance": 0.10687566786304714,
+        "Quality": 0.3791485816260727,
+        "OEE": 0.027019345617078996
+    },
+    "Pizza/freezing/MES/KPI/MTTR": {
+        "timestamp": "2024-08-27T16:53:43.528998",
+        "value": "33.36445107770963"
+    },
+    "Pizza/freezing/MES/Quality": {
+        "timestamp": "2024-08-28T02:14:10.528998",
+        "OrderNumber": 251225,
+        "AcceptanceQuantity": 212,
+        "RejectionQuantity": 35,
+        "TestingParameters": "2S72knEt7T83cF"
+    },
+    "Pizza/freezing/MES/MaintenanceStatus": {
+        "timestamp": "2024-08-28T04:13:31.528998",
+        "value": 1
+    },
+    "Pizza/freezing/CMMS": {
+        "maintenanceJobList": [
+            {
+                "timestamp": "2024-08-27T23:57:22.528998",
+                "machineId": "PWR001",
+                "jobStatus": "completed",
+                "jobStartTime": "2024-08-28T12:49:28.528998",
+                "jobEndTime": "2024-08-28T07:37:24.528998",
+                "jobDescription": "conveyor belt maintenance",
+                "maintenanceType": "preventive",
+                "maintenanceTechnician": null
+            }
+        ]
+    },
+    "Pizza/freezing/RCA005/informations": {
+        "type": "RoomClimateAnalyzer",
+        "manufacturer": "AirMasters",
+        "modelYear": "2018",
+        "serialNumber": "RCAn5Km3",
+        "timestamp": "2024-08-27T22:00:18.528998",
+        "machineId": "RCA005"
+    },
+    "Pizza/freezing/RCA005/machineData/ambiantHumidity": {
+        "value": 86,
+        "unit": "%"
+    },
+    "Pizza/freezing/RCA005/machineData/ambiantTemperature": {
+        "value": 12,
+        "unit": "\u00b0C"
+    },
+    "Pizza/freezing/BF001/informations": {
+        "type": "BlastFreezer",
+        "manufacturer": "FreezeTech",
+        "modelYear": "2022",
+        "serialNumber": "BFzQdnh",
+        "capacity": 552,
+        "capacityUnit": "kg/hour",
+        "ratedPower": "5676 WATTS",
+        "timestamp": "2024-08-28T13:08:36.528998",
+        "machineId": "BF001"
+    },
+    "Pizza/freezing/BF001/machineData/temperature": {
+        "value": -30,
+        "unit": "\u00b0C",
+        "description": "Freezing temperature",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/freezing/BF001/machineData/consistencyCheckInterval": {
+        "value": 28,
+        "unit": "minutes",
+        "description": "Interval in which the temperature is checked for consistency",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/freezing/BF001/machineData/freezingTime": {
+        "value": 15,
+        "unit": "minutes",
+        "description": "Total time for the pizza to be fully frozen",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/freezing/BF001/machineData/coolingRate": {
+        "value": 1.733286488404322,
+        "unit": "\u00b0C/minute",
+        "description": "Rate at which the pizza cools in the freezer",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/freezing/BF001/machineData/freezingMethod": {
+        "value": "Blast freezer",
+        "timestamp": "2024-08-27T14:16:51.528998"
+    },
+    "Pizza/freezing/BF001/alarms": {
+        "timestamp": "2024-08-28T04:35:08.528998",
+        "alarmId": 67075,
+        "alarmType": "TemperatureDeviation",
+        "alarmStatus": "Cleared",
+        "machineId": "BF001"
+    },
+    "Pizza/packaging/ERP": {
+        "OrderNumber": 113317,
+        "OrderQuanity": 302,
+        "PriorityLevel": "Low",
+        "ScheduledStartDate": "08/28/2024 14:17:24",
+        "ScheduledEndDate": "08/28/2024 17:17:24",
+        "BatchNumber": "Batch-1iTEN",
+        "ProductInformation": "Non-Vegetarian"
+    },
+    "Pizza/packaging/MES/production/jobStatus": {
+        "timestamp": "2024-08-27T19:15:28.017928",
+        "value": "1"
+    },
+    "Pizza/packaging/MES/production/jobStartTime": {
+        "timestamp": "2024-08-27T16:17:08.017928",
+        "value": "08/28/2024 15:17:24"
+    },
+    "Pizza/packaging/MES/production/jobEndTime": {
+        "timestamp": "2024-08-28T09:34:28.017928",
+        "value": "08/28/2024 18:17:24"
+    },
+    "Pizza/packaging/MES/production/rejectedQuantity": {
+        "timestamp": "2024-08-28T09:26:04.017928",
+        "value": "0"
+    },
+    "Pizza/packaging/MES/production/producedQuantity": {
+        "timestamp": "2024-08-28T12:33:43.017928",
+        "value": "214"
+    },
+    "Pizza/packaging/MES/KPI/OEE": {
+        "timestamp": "2024-08-27T22:40:44.817813",
+        "Availability": 0.9832678499397808,
+        "Performance": 0.6274104025111887,
+        "Quality": 0.9468610463881291,
+        "OEE": 0.5841303939821986
+    },
+    "Pizza/packaging/MES/KPI/MTTR": {
+        "timestamp": "2024-08-27T22:52:58.017928",
+        "value": "30.043605492367195"
+    },
+    "Pizza/packaging/MES/quality": {
+        "timestamp": "2024-08-28T14:03:04.998210",
+        "OrderNumber": 349770,
+        "AcceptanceQuantity": 109,
+        "RejectionQuantity": 10,
+        "TestingParameters": null
+    },
+    "Pizza/packaging/MES/maintenanceStatus": {
+        "timestamp": "2024-08-27T22:39:14.998210",
+        "value": 0
+    },
+    "Pizza/packaging/CMMS": {
+        "maintenanceJobList": [
+            {
+                "timestamp": "2024-08-28T07:34:32.998210",
+                "machineId": "PWR001",
+                "jobStatus": "completed",
+                "jobStartTime": "2024-08-27T23:06:52.998210",
+                "jobEndTime": "2024-08-28T00:55:31.998210",
+                "jobDescription": "routine check",
+                "maintenanceType": "preventive",
+                "maintenanceTechnician": null
+            }
+        ]
+    },
+    "Pizza/packaging/RCA006/informations": {
+        "type": "RoomClimateAnalyzer",
+        "manufacturer": "AirMasters",
+        "modelYear": "2021",
+        "serialNumber": "RCAcFoer",
+        "timestamp": "2024-08-28T06:53:45.998210",
+        "machineId": "RCA006"
+    },
+    "Pizza/packaging/RCA006/machineData/ambiantHumidity": {
+        "value": 87,
+        "unit": "%"
+    },
+    "Pizza/packaging/RCA006/machineData/ambiantTemperature": {
+        "value": 12,
+        "unit": "\u00b0C"
+    },
+    "Pizza/packaging/PWR001/informations": {
+        "type": "PizzaWrappingMachine",
+        "manufacturer": "mwPizza",
+        "modelYear": "2021",
+        "serialNumber": "PWRgZ1Sf",
+        "capacity": 1441,
+        "capacityUnit": "pieces/hour",
+        "ratedPower": "3000 WATTS",
+        "timestamp": "2024-08-28T08:37:47.998210",
+        "machineId": "PWR001"
+    },
+    "Pizza/packaging/PWR001/machineData/machineStatus": {
+        "value": 1,
+        "unit": "integer",
+        "description": "Machine status. Running = 1, Stopped = 0",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PWR001/machineData/counter": {
+        "value": 6958,
+        "unit": "pieces",
+        "description": "Total weight of product in kneading machine",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PWR001/machineData/wrapMaterial": {
+        "value": "PVC",
+        "unit": "material",
+        "description": "Type of wrap material used",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PWR001/machineData/wrapThickness": {
+        "value": 0.018,
+        "unit": "mm",
+        "description": "Thickness of wrap material",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PWR001/machineData/conveyorSpeed": {
+        "value": 58,
+        "unit": "cm/s",
+        "description": "Current speed of the conveyor belt",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PWR001/machineData/shrinkHeaterTemperature": {
+        "value": 73,
+        "unit": "\u00b0C",
+        "description": "Temperature inside the shrink foil heater",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PWR001/machineData/alarms": [
+        {
+            "timestamp": "2024-08-28T07:16:03.998210",
+            "alarmId": 64017,
+            "alarmType": "KneadingTimeExceeded",
+            "alarmStatus": "Cleared",
+            "machineId": "KM001"
+        },
+        {
+            "timestamp": "2024-08-28T01:03:32.998210",
+            "alarmId": 38839,
+            "alarmType": "TemperatureTooHigh",
+            "alarmStatus": "Cleared",
+            "machineId": "KM001"
+        }
+    ],
+    "Pizza/packaging/PBM001/informations": {
+        "type": "SecondaryPackagingMachine",
+        "manufacturer": "PackTech",
+        "modelYear": "2019",
+        "serialNumber": "SPM53evd",
+        "capacity": 627,
+        "capacityUnit": "pcs/hour",
+        "ratedPower": "3500 WATTS",
+        "timestamp": "2024-08-28T14:03:12.998210",
+        "machineId": "SPM001"
+    },
+    "Pizza/packaging/PBM001/machineData/machineStatus": {
+        "value": 1,
+        "unit": "integer",
+        "description": "Machine status. Running = 1, Stopped = 0",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PBM001/machineData/boxType": {
+        "value": "Cardboard",
+        "unit": "material",
+        "description": "Type of box used",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PBM001/machineData/boxDimensions": {
+        "length": 20,
+        "width": 33,
+        "height": 10,
+        "unit": "cm",
+        "description": "Dimensions of the box",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PBM001/machineData/sealingMethod": {
+        "value": "Glue",
+        "unit": "method",
+        "description": "Method used for sealing the box",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PBM001/machineData/conveyorSpeed": {
+        "value": 29,
+        "unit": "cm/s",
+        "description": "Current speed of the conveyor belt",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PBM001/machineData/speedOffset": {
+        "value": 4,
+        "unit": "cm/s",
+        "description": "Offset parameter to sync wrapping and boxing machine",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PBM001/machineData/timestamp": "2024-08-27T14:15:41.998210",
+    "Pizza/packaging/PBM001/alarms": {
+        "timestamp": "2024-08-27T15:26:44.998210",
+        "alarmId": 95755,
+        "alarmType": "ComponentFailure",
+        "alarmStatus": "Cleared",
+        "machineId": "SPM001"
+    },
+    "Pizza/packaging/PLM001/informations": {
+        "type": "LabelingMachine",
+        "manufacturer": "LabelTech",
+        "modelYear": "2018",
+        "serialNumber": "LMIAeb0",
+        "capacity": 1246,
+        "capacityUnit": "pcs/hour",
+        "ratedPower": "2000 WATTS",
+        "timestamp": "2024-08-27T23:55:35.998210",
+        "machineId": "LM001"
+    },
+    "Pizza/packaging/PLM001/machineData/labelType": {
+        "value": "Print",
+        "unit": "material",
+        "description": "Type of label used",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PLM001/machineData/labelDimensions": {
+        "length": 13,
+        "width": 8,
+        "unit": "cm",
+        "description": "Dimensions of the label",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PLM001/machineData/printingMethod": {
+        "value": "Inkjet",
+        "unit": "method",
+        "description": "Method used for printing the label",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PLM001/machineData/expiryDate": {
+        "value": "31.10.2025",
+        "description": "Expiry date set for current batch. Format YYYY.MM.DD",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PLM001/machineData/batchNumber": {
+        "value": "NwUQgLRmtN",
+        "description": "Batch for print on pizza box",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PLM001/machineData/labelContent": {
+        "value": "2024.08.28\nJTEFymR4lq",
+        "description": "Combined label content for print on pizza box ",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PLM001/machineData/timestamp": "2024-08-27T14:15:41.998210",
+    "Pizza/packaging/PLM001/alarms": {
+        "timestamp": "2024-08-28T06:26:18.998210",
+        "alarmId": 56208,
+        "alarmType": "LabelJam",
+        "alarmStatus": "Active",
+        "machineId": "LM001"
+    },
+    "Pizza/packaging/PPM001/informations": {
+        "type": "PalletPackagingMachine",
+        "manufacturer": "PalletTech",
+        "modelYear": "2021",
+        "serialNumber": "PPMtsWAZ",
+        "capacity": 2496,
+        "capacityUnit": "items/hour",
+        "ratedPower": "3000 WATTS",
+        "timestamp": "2024-08-28T01:30:40.998210",
+        "machineId": "PPM001"
+    },
+    "Pizza/packaging/PPM001/machineData/palletType": {
+        "value": "Wood",
+        "unit": "material",
+        "description": "Type of pallet used",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PPM001/machineData/palletDimensions": {
+        "length": 137,
+        "width": 129,
+        "height": 16,
+        "unit": "cm",
+        "description": "Dimensions of the pallet",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PPM001/machineData/palletLoad": {
+        "value": 33,
+        "unit": "items",
+        "description": "Number of items loaded on the pallet",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PPM001/machineData/plannedPalletLoad": {
+        "value": 50,
+        "unit": "items",
+        "description": "Planned items on pallet",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PPM001/machineData/palletWeight": {
+        "value": 224,
+        "unit": "kg",
+        "description": "Weight of the items on pallet",
+        "timestamp": "2024-08-27T14:15:41.998210"
+    },
+    "Pizza/packaging/PPM001/machineData/timestamp": "2024-08-27T14:15:41.998210",
+    "Pizza/packaging/PPM001/alarms": {
+        "timestamp": "2024-08-28T04:41:04.998210",
+        "alarmId": 54107,
+        "alarmType": "LoadInstability",
+        "alarmStatus": "Active",
+        "machineId": "PPM001"
+    }
+}

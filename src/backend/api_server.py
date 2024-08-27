@@ -1,3 +1,5 @@
+import threading
+import time
 import uvicorn
 from fastapi import FastAPI
 from fastapi.responses import StreamingResponse
@@ -7,6 +9,7 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_openai import AzureChatOpenAI
 from langchain_community.chat_message_histories import ChatMessageHistory
 from models import ChatInput
+from backend.mqtt_client import mqtt_loop, save_snapshot
 from sub_chat import combine_chunks, sub_llm_call
 from config.config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_API_VERSION, AZURE_OPENAI_DEPLOYMENT_NAME, AZURE_OPENAI_ENDPOINT
 
@@ -20,6 +23,7 @@ app = FastAPI(
 )
 
 session_store = {}
+mqtt_latest_messages = {}
 
 
 def history_by_session_id(session_id) -> ChatMessageHistory:
@@ -30,7 +34,7 @@ def history_by_session_id(session_id) -> ChatMessageHistory:
 
 prompt = ChatPromptTemplate.from_messages(
     [
-        ("system", "You are a helpful assistant"),
+        ("system", "You are a helpful assistant. You are able to call the sub-LLM for any queries that are too complex. The sub llm is able to fetch a snapshot of the UNS."),
         MessagesPlaceholder(variable_name="history"),
         ("human", "{human_input}"),
     ]
@@ -155,15 +159,31 @@ async def chat_stream(chat_input: ChatInput):
 
 
 def main():
-    """
-    The main entry point of the application. Starts the Uvicorn server.
-    """
     try:
         logger.info("Starting Uvicorn server...")
+
+        # Start the MQTT client loop in a separate thread
+        mqtt_thread = threading.Thread(target=mqtt_loop)
+        mqtt_thread.start()
+        logger.debug("MQTT thread started")
+
+        # Start a periodic snapshot saver in a separate thread
+        snapshot_thread = threading.Thread(target=periodic_snapshot_saver, args=(60,))
+        snapshot_thread.start()
+        logger.debug("Snapshot saver thread started")
+
         uvicorn.run(app, host="0.0.0.0", port=8001, root_path="/chat")
 
     except KeyboardInterrupt:
         logger.info("Shut down complete!")
+    except Exception as e:
+        logger.exception(f"Unexpected error: {e}")
+
+
+def periodic_snapshot_saver(interval):
+    while True:
+        save_snapshot()
+        time.sleep(interval)
 
 
 if __name__ == "__main__":

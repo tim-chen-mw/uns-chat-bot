@@ -5,7 +5,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_openai import AzureChatOpenAI
 from langchain_community.chat_message_histories import ChatMessageHistory
 from models import SubLlmToolCall
-from tools import generate_name
+from tools import get_uns_snapshot
 from config.config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_API_VERSION, AZURE_OPENAI_DEPLOYMENT_NAME, AZURE_OPENAI_ENDPOINT
 from config.logger import logger
 
@@ -26,7 +26,7 @@ def combine_chunks(chunks):
 
 
 def get_sub_chain():
-    trivial_llm_system_prompt = "You are a helpful assistant"
+    trivial_llm_system_prompt = "You are a helpful assistant. You are able to get the latest snapshot of the UNS data and generate a name for the chatbot."
     prompt = ChatPromptTemplate.from_messages(
         [
             ("system", trivial_llm_system_prompt),
@@ -43,7 +43,7 @@ def get_sub_chain():
         streaming=True
     )
 
-    trivial_llm_tools = [generate_name]
+    trivial_llm_tools = [get_uns_snapshot]
 
     trivial_chat_instance_with_tools = trivial_chat_instance.bind_tools(trivial_llm_tools)
 
@@ -57,7 +57,7 @@ async def process_tool_calls(response, chat_history, chain):
         logger.debug("Sub Context: starting tool call %s...", tool_call["name"])
         try:
             selected_tool = {
-                "generate_name": generate_name,
+                "get_uns_snapshot": get_uns_snapshot,
             }[tool_call["name"].lower()]
         except Exception as e:
             logger.exception(e)
