@@ -168,7 +168,7 @@ def main():
         logger.debug("MQTT thread started")
 
         # Start a periodic snapshot saver in a separate thread
-        snapshot_thread = threading.Thread(target=periodic_snapshot_saver, args=(60,))
+        snapshot_thread = threading.Thread(target=periodic_snapshot_saver, args=(10,))
         snapshot_thread.start()
         logger.debug("Snapshot saver thread started")
 

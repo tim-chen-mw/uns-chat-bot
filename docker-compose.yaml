@@ -13,6 +13,7 @@ services:
     env_file:
       - .env
     restart: unless-stopped
+    network_mode: "host"
 
   backend:
     container_name: uns-backend
